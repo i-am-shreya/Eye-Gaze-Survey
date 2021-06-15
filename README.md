@@ -1,8 +1,13 @@
 # EyeGazeSurvey
-Automatic Gaze Analysis ‘in-the-wild’: A Survey
+'Automatic Gaze Analysis ‘in-the-wild’: A Survey' by Shreya Ghosh, Munawar Hayat, Abhinav Dhall and Jarrod Knibbe.  
+  
+If we miss your work, please let us know and we'll add it.   
 
-## Contact:
-- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>.
+<!---## Update-->
+
+
+## Contact
+- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>
 
 <!---If you find the survey useful for your research, please consider citing our work:
 ```
