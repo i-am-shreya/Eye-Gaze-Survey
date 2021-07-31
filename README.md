@@ -6,6 +6,7 @@ If we miss your work, please let us know and we'll add it.
 <!---## Update-->
 
 ## Datasets
+A comparison of gaze datasets with respect to several attributes (i.e. number of subjects (\# subjects), gaze labels, modality, headpose and gaze angle in yaw and pitch axis, environment (Env.), baseline method, data statistics (\# of data), and year of publication.) The abbreviations used are: In: Indoor, Out: Outdoor, Both: Indoor + Outdoor, Gen.: Generation, u/k: unknown, Seq.: Sequence, VF: Visual Field, EB: Eye Blink, GE: Gaze Event~\cite{kothari2020gaze}, GBRT: Gradient Boosting Regression Trees, GC: Gaze Communication, GNN: Graph Neural Network and Seg.: Segmentation.
 ![datasets](/images/datasets.png)
 
 ## Gaze Analysis Methods
