@@ -8,6 +8,8 @@ If we miss your work, please let us know and we'll add it.
 ## Datasets
 ![datasets](/images/datasets.png)
 
+## Gaze Analysis Methods
+![datasets](/images/prior_work.png)
 
 ## Contact
 - <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>, Abhinav Dhall and Munawar Hayat.
