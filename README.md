@@ -9,6 +9,7 @@ If we miss your work, please let us know and we'll add it.
 ![datasets](/images/datasets.png)
 
 ## Gaze Analysis Methods
+A comparison of gaze analysis methods with respect to registration (Reg.), representation (Represent.), Level of Supervision, Model, Prediction, validation on benchmark datasets (validation), Platforms, Publication venue (Publ.) and year. Here, GV: Gaze Vector, Scr.: Screen, LOSO: Leave One Subject Out, LPIPS: Learned Perceptual Image Patch Similarity, MM: Morphable Model, RRF: Random Regression Forest, AEM: Anatomic Eye Model, GRN: Gaze Regression Network, ET: External Target, FV: Free Viewing, HH: HandHeld Device, HMD: Head Mounted Device, Seg.: Segmentation and GR: Gaze Redirection, LAEO: Looking At Each Other.
 ![datasets](/images/prior_work.png)
 
 ## Contact
