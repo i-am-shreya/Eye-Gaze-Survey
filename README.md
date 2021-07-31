@@ -1,6 +1,6 @@
 # EyeGazeSurvey
-Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. [Link to Google](https://www.google.com)
-https://drive.google.com/file/d/1T4v8tAeicntSkzTZFX8-26IDXH0UYl1Z/view?usp=sharing
+Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. [Link](https://drive.google.com/file/d/1T4v8tAeicntSkzTZFX8-26IDXH0UYl1Z/view?usp=sharing)
+
   
 If we miss your work, please let us know and we'll add it.   
 
