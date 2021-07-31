@@ -6,12 +6,7 @@ If we miss your work, please let us know and we'll add it.
 <!---## Update-->
 
 ## Datasets
-<img
-src=“images/datasets.png”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
+![datasets](/images/datasets.png)
 
 
 ## Contact
