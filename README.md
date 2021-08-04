@@ -16,7 +16,7 @@ A comparison of gaze analysis methods with respect to registration (Reg.), repre
 ![datasets](/images/prior_work.png)
 
 ## Contact
-- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>, Abhinav Dhall and Munawar Hayat.
+- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>.
 
 <!---If you find the survey useful for your research, please consider citing our work:
 ```
