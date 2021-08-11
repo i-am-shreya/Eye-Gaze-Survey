@@ -18,678 +18,725 @@ A comparison of gaze datasets with respect to several attributes (i.e. number of
 A comparison of gaze analysis methods with respect to registration (Reg.), representation (Represent.), Level of Supervision, Model, Prediction, validation on benchmark datasets (validation), Platforms, Publication venue (Publ.) and year. Here, GV: Gaze Vector, Scr.: Screen, LOSO: Leave One Subject Out, LPIPS: Learned Perceptual Image Patch Similarity, MM: Morphable Model, RRF: Random Regression Forest, AEM: Anatomic Eye Model, GRN: Gaze Regression Network, ET: External Target, FV: Free Viewing, HH: HandHeld Device, HMD: Head Mounted Device, Seg.: Segmentation and GR: Gaze Redirection, LAEO: Looking At Each Other.
 ![datasets](/images/prior_work.png)
 
-[Che-etal2020 IEEE TIP] How is Gaze Influenced by Image Transformations? Dataset and Model.[PDF]
-Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet
+<h2><a id="user-content-journal-papers" class="anchor" aria-hidden="true" href="#journal-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Journal Papers</h2>
 
-[Martinikorena-etal2020 IEEE TIP] Low Cost Gaze Estimation: Knowledge-Based Solutions. [PDF]
-Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Che-etal2020 IEEE TIP] How is Gaze Influenced by Image Transformations? Dataset and Model.<a href="https://doi.org/10.1109/TIP.2019.2945857" rel="nofollow">[PDF]</a>
+<p><em>	Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet</em></p>
 
-[Cheng-etal2020 IEEE TIP] Gaze Estimation by Exploring Two-Eye Asymmetry. [PDF]
-Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Martinikorena-etal2020 IEEE TIP] Low Cost Gaze Estimation: Knowledge-Based Solutions. <a href="https://doi.org/10.1109/TIP.2019.2946452" rel="nofollow">[PDF]</a>
+<p><em>Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva</em></p>
 
-[Huang-etal2020 IEEE TIP] Mutual Context Network for Jointly Estimating Egocentric Gaze and Action. [PDF]
-Yifei Huang, Minjie Cai, Zhenqiang Li, Feng Lu, Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2020 IEEE TIP] Gaze Estimation by Exploring Two-Eye Asymmetry. <a href="https://doi.org/10.1109/TIP.2020.2982828" rel="nofollow">[PDF]</a>
+<p><em>	Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato</em></p>
 
-[Tamura-etal2018 IEEE Access] Unconstrained and Calibration-Free Gaze Estimation in a Room-Scale Area Using a Monocular Camera. [PDF]
-Kimimasa Tamura and Ran Choi and Yoshimitsu Aoki
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Huang-etal2020 IEEE TIP] Mutual Context Network for Jointly Estimating Egocentric Gaze and Action. <a href="https://doi.org/10.1109/TIP.2020.3007841" rel="nofollow">[PDF]</a>
+<p><em>Yifei Huang, Minjie Cai, Zhenqiang Li, Feng Lu, Yoichi Sato</em></p>
 
-[Kang-etal2018 IEEE Access] A Robust Extrinsic Calibration Method for Non-Contact Gaze Tracking in the 3-D Space. [PDF]
-Mun-Cheon Kang and Cheol-Hwan Yoo and Kwang-Hyun Uhm and Dae-Hong Lee and Sung-Jea Ko
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tamura-etal2018 IEEE Access] Unconstrained and Calibration-Free Gaze Estimation in a Room-Scale Area Using a Monocular Camera. <a href="https://ieeexplore.ieee.org/document/8003269" rel="nofollow">[PDF]</a>
+<p><em>Kimimasa Tamura and Ran Choi and Yoshimitsu Aoki</em></p>
 
-[Cazzato-etal2018 PJBR] Real-time gaze estimation via pupil center tracking. [PDF]
-Dario Cazzato and Fabio Dominio and Roberto Manduchi and Silvia M. Castro
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kang-etal2018 IEEE Access] A Robust Extrinsic Calibration Method for Non-Contact Gaze Tracking in the 3-D Space. <a href="https://ieeexplore.ieee.org/document/8447183" rel="nofollow">[PDF]</a>
+<p><em>Mun-Cheon Kang and Cheol-Hwan Yoo and Kwang-Hyun Uhm and Dae-Hong Lee and Sung-Jea Ko</em></p>
 
-[Zhang-etal2017 TPAMI] MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation. [PDF]
-Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cazzato-etal2018 PJBR] Real-time gaze estimation via pupil center tracking. <a href="https://www.degruyter.com/view/j/pjbr.2018.9.issue-1/pjbr-2018-0002/pjbr-2018-0002.xml" rel="nofollow">[PDF]</a>
+<p><em>Dario Cazzato and Fabio Dominio and Roberto Manduchi and Silvia M. Castro</em></p>
 
-[Lu-etal2017 TIP] Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery. [PDF]
-Feng Lu and Xiaowu Chen and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017 TPAMI] MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/8122058" rel="nofollow">[PDF]</a>
+<p><em>Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling</em></p>
 
-[Tonsen-etal2017 IMWUT] InvisibleEye: Mobile Eye Tracking Using Multiple Low-Resolution Cameras and Learning-Based Gaze Estimation. [PDF]
-Marc Tonsen and Julian Steil and Yusuke Sugano and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2017 TIP] Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery. <a href="https://ieeexplore.ieee.org/document/7833091" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Xiaowu Chen and Yoichi Sato</em></p>
 
-[Cazzato-etal2016 PRL] A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study. [PDF]
-Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tonsen-etal2017 IMWUT] InvisibleEye: Mobile Eye Tracking Using Multiple Low-Resolution Cameras and Learning-Based Gaze Estimation. <a href="https://dl.acm.org/citation.cfm?id=3130971" rel="nofollow">[PDF]</a>
+<p><em>Marc Tonsen and Julian Steil and Yusuke Sugano and Andreas Bulling</em></p>
 
-[Cristina-Camilleri2016 CVIU] Model-based head pose-free gaze estimation for assistive communication. [PDF]
-Stefania Cristina and Kenneth P. Camilleri
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cazzato-etal2016 PRL] A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study. <a href="https://www.sciencedirect.com/science/article/pii/S0167865515003669" rel="nofollow">[PDF]</a>
+<p><em>Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante</em></p>
 
-[George-Routray2016 IET CV] Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images. [PDF]
-Anjith George and Aurobinda Routray
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cristina-Camilleri2016 CVIU] Model-based head pose-free gaze estimation for assistive communication. <a href="https://www.sciencedirect.com/science/article/pii/S1077314216000667" rel="nofollow">[PDF]</a>
+<p><em>Stefania Cristina and Kenneth P. Camilleri</em></p>
 
-[Mora-Odobez2015 VisRes] Gaze Estimation in the 3D Space Using RGB-D Sensors. [PDF]
-Kenneth A. Funes-Mora and Jean-Marc Odobez
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[George-Routray2016 IET CV] Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images. <a href="http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316" rel="nofollow">[PDF]</a>
+<p><em>Anjith George and Aurobinda Routray</em></p>
 
-[Parks-etal2015 VisRes] Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes. [PDF]
-Daniel Parks and Ali Borji and Laurent Itti
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mora-Odobez2015 VisRes] Gaze Estimation in the 3D Space Using RGB-D Sensors. <a href="http://publications.idiap.ch/index.php/publications/show/3228" rel="nofollow">[PDF]</a>
+<p><em>Kenneth A. Funes-Mora and Jean-Marc Odobez</em></p>
 
-[Sugano-etal2015 THMS] Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations. [PDF]
-Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Parks-etal2015 VisRes] Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes. <a href="https://www.sciencedirect.com/science/article/pii/S0042698914002739" rel="nofollow">[PDF]</a>
+<p><em>Daniel Parks and Ali Borji and Laurent Itti</em></p>
 
-[Fridman-etal2015 MIS] Driver Gaze Region Estimation Without Using Eye Movement. [PDF]
-Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sugano-etal2015 THMS] Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations. <a href="https://ieeexplore.ieee.org/document/7050250" rel="nofollow">[PDF]</a>
+<p><em>Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike</em></p>
 
-[Gwon-etal2014 Sensors] Gaze Tracking System for User Wearing Glasses. [PDF]
-Su Gwon and Chul Cho and Hyeon Lee and Won Lee and Kang Park
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fridman-etal2015 MIS] Driver Gaze Region Estimation Without Using Eye Movement. <a href="https://ieeexplore.ieee.org/document/7478592" rel="nofollow">[PDF]</a>
+<p><em>Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer</em></p>
 
-[Lu-etal2014 TPAMI] Adaptive Linear Regression for Appearance-Based Gaze Estimation. [PDF]
-Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Gwon-etal2014 Sensors] Gaze Tracking System for User Wearing Glasses. <a href="https://www.mdpi.com/1424-8220/14/2/2110" rel="nofollow">[PDF]</a>
+<p><em>Su Gwon and Chul Cho and Hyeon Lee and Won Lee and Kang Park</em></p>
 
-[Lu-etal2014a IVC] Learning gaze biases with head motion for head pose-free gaze estimation. [PDF]
-Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2014 TPAMI] Adaptive Linear Regression for Appearance-Based Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/6777326" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato</em></p>
 
-[Sun-etal2014 TMM] Real-Time Gaze Estimation with Online Calibration. [PDF]
-Li Sun and Mingli Song and Zicheng Liu and Ming-Ting Sun
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2014a IVC] Learning gaze biases with head motion for head pose-free gaze estimation. <a href="https://www.sciencedirect.com/science/article/pii/S0262885614000171" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato</em></p>
 
-[Sugano-etal2013 TPAMI] Appearance-Based Gaze Estimation Using Visual Saliency. [PDF]
-Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sun-etal2014 TMM] Real-Time Gaze Estimation with Online Calibration. <a href="https://ieeexplore.ieee.org/document/6916495" rel="nofollow">[PDF]</a>
+<p><em>Li Sun and Mingli Song and Zicheng Liu and Ming-Ting Sun</em></p>
 
-[Gwon-etal2013 IJARS] Robust Eye and Pupil Detection Method for Gaze Tracking. [PDF]
-Su Yeong Gwon and Chul Woo Cho and Hyeon Chang Lee and Won Oh Lee and Kang Ryoung Park
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sugano-etal2013 TPAMI] Appearance-Based Gaze Estimation Using Visual Saliency. <a href="https://ieeexplore.ieee.org/document/6193107" rel="nofollow">[PDF]</a>
+<p><em>Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato</em></p>
 
-[Corcoran-etal2012 TCE] Real-time eye gaze tracking for gaming design and consumer electronics systems. [PDF]
-Peter Corcoran and Florin Nanu and Stefan Petrescu and Petronel Bigioi
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Gwon-etal2013 IJARS] Robust Eye and Pupil Detection Method for Gaze Tracking. <a href="journals.sagepub.com/doi/full/10.5772/55520" rel="nofollow">[PDF]</a>
+<p><em>Su Yeong Gwon and Chul Woo Cho and Hyeon Chang Lee and Won Oh Lee and Kang Ryoung Park</em></p>
 
-[Valenti-etal2012 TIP] Combining Head Pose and Eye Location Information for Gaze Estimation. [PDF]
-R. Valenti and N. Sebe and T. Gevers
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Corcoran-etal2012 TCE] Real-time eye gaze tracking for gaming design and consumer electronics systems. <a href="https://ieeexplore.ieee.org/document/6227433" rel="nofollow">[PDF]</a>
+<p><em>Peter Corcoran and Florin Nanu and Stefan Petrescu and Petronel Bigioi</em></p>
 
-[Lee-etal2010 TCE] Gaze tracking system at a distance for controlling IPTV. [PDF]
-Hyeon Lee and Duc Luong and Chul Cho and Eui Lee and Kang Park
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Valenti-etal2012 TIP] Combining Head Pose and Eye Location Information for Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/5959981" rel="nofollow">[PDF]</a>
+<p><em>R. Valenti and N. Sebe and T. Gevers</em></p>
 
-[Morimoto-Mimica2005 CVIU] Eye gaze tracking techniques for interactive applications. [PDF]
-Carlos H. Morimoto and Marcio R.M. Mimica
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lee-etal2010 TCE] Gaze tracking system at a distance for controlling IPTV. <a https://ieeexplore.ieee.org/document/5681143" rel="nofollow">[PDF]</a>
+<p><em>Hyeon Lee and Duc Luong and Chul Cho and Eui Lee and Kang Park</em></p>
 
-Conference Papers
-2021 CVPR
-[Fang-etal2021] Dual Attention Guided Gaze Target Detection in the Wild[PDF]
-Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Morimoto-Mimica2005 CVIU] Eye gaze tracking techniques for interactive applications. <a href="https://www.sciencedirect.com/science/article/pii/S1077314204001109" rel="nofollow">[PDF]</a>
+<p><em>Carlos H. Morimoto and Marcio R.M. Mimica</em></p>
 
-[Zhong-etal2021] Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection[PDF]
-Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao
 
-[Kothari-etal2021] Weakly-Supervised Physically Unconstrained Gaze Estimation[PDF]
-Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz
 
-[Liu-etal2021] Goal-Oriented Gaze Estimation for Zero-Shot Learning[PDF]
-Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada
 
-[Meng-etal2021] Connecting What To Say With Where To Look by Modeling Human Attention Traces[PDF]
-Zihang Meng, Licheng Yu, Ning Zhang, Tamara L. Berg, Babak Damavandi, Vikas Singh, Amy Bearman
 
-[Tomas-etal2021 CVPRW] GOO: A Dataset for Gaze Object Prediction in Retail Environments[PDF]
-Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto
 
-[Poulopoulos-etal2021 CVPRW] PupilTAN: A Few-Shot Adversarial Pupil Localizer[PDF]
-Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos
 
-[Murthy-etal2021 CVPRW] Appearance-Based Gaze Estimation Using Attention and Difference Mechanism[PDF]
-Murthy L R D, Pradipta Biswas
+<h2><a id="user-content-conference-papers" class="anchor" aria-hidden="true" href="#conference-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conference Papers</h2>
 
-[Siegfried-etal2021 CVPRW] Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets[PDF]
-Remy Siegfried, Jean-Marc Odobez
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2021-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2021 CVPR</h3>
 
-2021 Others
-[Cheng-etal2021 arXiv] Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark[PDF]
-Yihua Cheng, Haofei Wang, Yiwei Bao, Feng Lu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fang-etal2021] Dual Attention Guided Gaze Target Detection in the Wild<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf">[PDF]</a>
+<p><em>Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhong-etal2021] Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf">[PDF]</a>
+<p><em>Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kothari-etal2021] Weakly-Supervised Physically Unconstrained Gaze Estimation<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf">[PDF]</a>
+<p><em>Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Liu-etal2021] Goal-Oriented Gaze Estimation for Zero-Shot Learning<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf">[PDF]</a>
+<p><em>Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada</em></p>
 
-[Cheng-etal2021 arXiv] PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation[PDF]
-Yihua Cheng, Yiwei Bao, Feng Lu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Meng-etal2021] Connecting What To Say With Where To Look by Modeling Human Attention Traces<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf">[PDF]</a>
+<p><em>Zihang Meng, Licheng Yu, Ning Zhang, Tamara L. Berg, Babak Damavandi, Vikas Singh, Amy Bearman</em></p>
 
-[Cai-etal2021 arXiv] Gaze Estimation with an Ensemble of Four Architectures[PDF]
-Xin Cai, Boyu Chen, Jiabei Zeng, Jiajun Zhang, Yunjia Sun, Xiao Wang, Zhilong Ji, Xiao Liu, Xilin Chen, Shiguang Shan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tomas-etal2021 CVPRW] GOO: A Dataset for Gaze Object Prediction in Retail Environments<a href="https://arxiv.org/pdf/2105.10793">[PDF]</a>
+<p><em>	Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Poulopoulos-etal2021 CVPRW] PupilTAN: A Few-Shot Adversarial Pupil Localizer<a href="https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf">[PDF]</a>
+<p><em>	Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Murthy-etal2021 CVPRW] Appearance-Based Gaze Estimation Using Attention and Difference Mechanism<a href="https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/D_Appearance-Based_Gaze_Estimation_Using_Attention_and_Difference_Mechanism_CVPRW_2021_paper.pdf">[PDF]</a>
+<p><em>	Murthy L R D, Pradipta Biswas</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Siegfried-etal2021 CVPRW] Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets<a href="https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Siegfried_Visual_Focus_of_Attention_Estimation_in_3D_Scene_With_an_CVPRW_2021_paper.pdf">[PDF]</a>
+<p><em>	Remy Siegfried, Jean-Marc Odobez</em></p>
 
-[Bao-etal2021 arXiv] The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation[PDF]
-Jun Bao, Buyu Liu, Jun Yu
 
-[Ji-etal2021 arXiv] Bayesian Eye Tracking[PDF]
-Qiang Ji, Kang Wang
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2020-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2021 Others</h3>
 
-[Jindal-etal2021 arXiv] CUDA-GR: Controllable Unsupervised Domain Adaptation for Gaze Redirection[PDF]
-Swati Jindal, Xin Eric Wang
 
-[Yu-etal2021 arXiv] Glance-and-Gaze Vision Transformer[PDF]
-Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille, Wei Shen
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2021 arXiv] Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark<a href="https://arxiv.org/pdf/2104.12668">[PDF]</a>
+<p><em>	Yihua Cheng, Haofei Wang, Yiwei Bao, Feng Lu</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2021 arXiv] PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation<a href="https://arxiv.org/pdf/2103.13173">[PDF]</a>
+<p><em>	Yihua Cheng, Yiwei Bao, Feng Lu</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cai-etal2021 arXiv] Gaze Estimation with an Ensemble of Four Architectures<a href="https://arxiv.org/pdf/2107.01980">[PDF]</a>
+<p><em>	Xin Cai, Boyu Chen, Jiabei Zeng, Jiajun Zhang, Yunjia Sun, Xiao Wang, Zhilong Ji, Xiao Liu, Xilin Chen, Shiguang Shan</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Bao-etal2021 arXiv] The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation<a href="https://arxiv.org/pdf/2107.01980">[PDF]</a>
+<p><em>	Jun Bao, Buyu Liu, Jun Yu</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Ji-etal2021 arXiv] Bayesian Eye Tracking<a href="https://arxiv.org/pdf/2106.13387">[PDF]</a>
+<p><em>	Qiang Ji, Kang Wang</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jindal-etal2021 arXiv] CUDA-GR: Controllable Unsupervised Domain Adaptation for Gaze Redirection<a href="https://arxiv.org/pdf/2106.10852">[PDF]</a>
+<p><em>	Swati Jindal, Xin Eric Wang</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2021 arXiv] Glance-and-Gaze Vision Transformer<a href="https://arxiv.org/pdf/2106.02277">[PDF]</a>
+<p><em>	Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille, Wei Shen</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2021 arXiv] Gaze Estimation using Transformer<a href="https://arxiv.org/pdf/2105.14424">[PDF]</a>
+<p><em>	Yihua Cheng, Feng Lu</em></p>
 
-[Cheng-etal2021 arXiv] Gaze Estimation using Transformer[PDF]
-Yihua Cheng, Feng Lu
 
-2020 ECCV
-[Zhang-etal2020] ETH-XGaze: A Large Scale Dataset for Gaze Estimation under Extreme Head Pose and Gaze Variation.[PDF]
-Xucong Zhang, Seonwook Park, Thabo Beeler, Derek Bradley, Siyu Tang , Otmar Hilliges
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2020-eccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2020 ECCV</h3>
 
-[Park-etal2020] Towards End-to-end Video-based Eye-Tracking.[PDF]
-Seonwook Park, Emre Aksan, Xucong Zhang, Otmar Hilliges
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2020] ETH-XGaze: A Large Scale Dataset for Gaze Estimation under Extreme Head Pose and Gaze Variation.<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500358.pdf">[PDF]</a>
+<p><em>Xucong Zhang, Seonwook Park, Thabo Beeler, Derek Bradley, Siyu Tang , Otmar Hilliges </em></p>
 
-[Lee-etal2020] Deep Learning-based Pupil Center Detection for Fast and Accurate Eye Tracking System.[PDF]
-Kang Il Lee, Jung Ho Jeon, Byung Cheol Song
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Park-etal2020] Towards End-to-end Video-based Eye-Tracking.<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570732.pdf">[PDF]</a>
+<p><em>Seonwook Park, Emre Aksan, Xucong Zhang, Otmar Hilliges </em></p>
 
-2020 CVPR
-[Yu-etal2020] Unsupervised Representation Learning for Gaze Estimation.[PDF]
-Yu Yu, Jean-Marc Odobez
 
-[Pal-etal2020] "Looking at the Right Stuff" - Guided Semantic-Gaze for Autonomous Driving.[PDF]
-Anwesan Pal, Sayan Mondal, Henrik I. Christensen
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lee-etal2020] Deep Learning-based Pupil Center Detection for Fast and Accurate Eye Tracking System.<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640035.pdf">[PDF]</a>
+<p><em>Kang Il Lee, Jung Ho Jeon, Byung Cheol Song </em></p>
 
-2020 Others
-[Fang-etal2020 ICIP] Identifying Children with Autism Spectrum Disorder Based on Gaze-Following.[PDF]
-Yi Fang, Huiyu Duan, Fangyu Shi, Xiongkuo Min, Guangtao Zhai
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2020-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2020 CVPR</h3>
 
-[Guo-etal2020 ACCV] Domain Adaptation Gaze Estimation by Embedding with Prediction Consistency.[PDF]
-Zidong Guo, Zejian Yuan, Chong Zhang, Wanchao Chi, Yonggen Ling, Shenghao Zhang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2020] Unsupervised Representation Learning for Gaze Estimation.<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Unsupervised_Representation_Learning_for_Gaze_Estimation_CVPR_2020_paper.pdf">[PDF]</a>
+<p><em>Yu Yu, Jean-Marc Odobez </em></p>
 
-[Chen-etal2020 WACV] Offset Calibration for Appearance-Based Gaze Estimation via Gaze Decomposition.[PDF]
-Zhaokang Chen, Bertram Shi
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Pal-etal2020] "Looking at the Right Stuff" - Guided Semantic-Gaze for Autonomous Driving.<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Pal_Looking_at_the_Right_Stuff_-_Guided_Semantic-Gaze_for_Autonomous_CVPR_2020_paper.pdf">[PDF]</a>
+<p><em>Anwesan Pal, Sayan Mondal, Henrik I. Christensen </em></p>
 
-[Dias-etal2020 WACV] Gaze Estimation for Assisted Living Environments.[PDF]
-Philipe Ambrozio Dias, Damiano Malafronte, Henry Medeiros, Francesca Odone
 
-[Kaur-etal2020 WACV] EyeGAN: Gaze-Preserving, Mask-Mediated Eye Image Synthesis.[PDF]
-Harsimran Kaur, Roberto Manduchi
 
-[Wang-etal2020 WACV] Learning to Detect Head Movement in Unconstrained Remote Gaze Estimation in the Wild.[PDF]
-Zhecan Wang, Jian Zhao, Cheng Lu, Fan Yang, Han Huang, lianji li, Yandong Guo
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2020-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2020 Others</h3>
 
-[Zhang-etal2020 BMVC] Learning-based Region Selection for End-to-End Gaze Estimation.[PDF]
-Xucong Zhang, Yusuke Sugano, Andreas Bulling and Otmar Hilliges
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fang-etal2020 ICIP] Identifying Children with Autism Spectrum Disorder Based on Gaze-Following.<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190831">[PDF]</a>
+<p><em>	Yi Fang, Huiyu Duan, Fangyu Shi, Xiongkuo Min, Guangtao Zhai</em></p>
 
-[Sood-etal2020 NeurIPS] Improving Natural Language Processing Tasks with Human Gaze-Guided Neural Attention.[PDF]
-Ekta Sood, Simon Tannert, Philipp Mueller, Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Guo-etal2020 ACCV] Domain Adaptation Gaze Estimation by Embedding with Prediction Consistency.<a href="https://openaccess.thecvf.com/content/ACCV2020/papers/Guo_Domain_Adaptation_Gaze_Estimation_by_Embedding_with_Prediction_Consistency_ACCV_2020_paper.pdf">[PDF]</a>
+<p><em>Zidong Guo, Zejian Yuan, Chong Zhang, Wanchao Chi, Yonggen Ling, Shenghao Zhang </em></p>
 
-[Zheng-etal2020 NeurIPS] Self-Learning Transformations for Improving Gaze and Head Redirection.[PDF]
-Yufeng Zheng, Seonwook Park, Xucong Zhang, Shalini De Mello, Otmar Hilliges
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-etal2020 WACV] Offset Calibration for Appearance-Based Gaze Estimation via Gaze Decomposition.<a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Offset_Calibration_for_Appearance-Based_Gaze_Estimation_via_Gaze_Decomposition_WACV_2020_paper.pdf">[PDF]</a>
+<p><em>Zhaokang Chen, Bertram Shi </em></p>
 
-[Zheng-etal2020 NeurIPS] Dynamic Fusion of Eye Movement Data and Verbal Narrations in Knowledge-rich Domains.[PDF]
-Ervine Zheng, Qi Yu, Rui Li, Pengcheng Shi, Anne Haake
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Dias-etal2020 WACV] Gaze Estimation for Assisted Living Environments.<a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Dias_Gaze_Estimation_for_Assisted_Living_Environments_WACV_2020_paper.pdf">[PDF]</a>
+<p><em>Philipe Ambrozio Dias, Damiano Malafronte, Henry Medeiros, Francesca Odone </em></p>
 
-[Orhan-etal2020 NeurIPS] Self-supervised learning through the eyes of a child.[PDF]
-Emin Orhan, Vaibhav Gupta, Brenden M. Lake
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kaur-etal2020 WACV] EyeGAN: Gaze-Preserving, Mask-Mediated Eye Image Synthesis.<a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Kaur_EyeGAN_Gaze-Preserving_Mask-Mediated_Eye_Image_Synthesis_WACV_2020_paper.pdf">[PDF]</a>
+<p><em>Harsimran Kaur, Roberto Manduchi</em></p>
 
-[Cheng-etal2020 AAAI] A Coarse-to-Fine Adaptive Network for Appearance-Based Gaze Estimation.[PDF]
-Yihua Cheng, Shiyao Huang, Fei Wang, Chen Qian, Feng Lu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2020 WACV] Learning to Detect Head Movement in Unconstrained Remote Gaze Estimation in the Wild.<a href="https://openaccess.thecvf.com/content_WACV_2020/papers/Wang_Learning_to_Detect_Head_Movement_in_Unconstrained_Remote_Gaze_Estimation_WACV_2020_paper.pdf">[PDF]</a>
+<p><em>Zhecan Wang, Jian Zhao, Cheng Lu, Fan Yang, Han Huang, lianji li, Yandong Guo</em></p>
 
-2019 ICCV
-[Fan-etal2019] Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning. [PDF]
-Lifeng Fan, Wenguan Wang, Siyuan Huang, Xinyu Tang, Song-Chun Zhu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2020 BMVC] Learning-based Region Selection for End-to-End Gaze Estimation.<a href="https://www.bmvc2020-conference.com/assets/papers/0086.pdf">[PDF]</a>
+<p><em>Xucong Zhang, Yusuke Sugano, Andreas Bulling and Otmar Hilliges</em></p>
 
-[Kellnhofer-etal2019] Gaze360: Physically Unconstrained Gaze Estimation in the Wild. [PDF]
-Petr Kellnhofer, Adria Recasens, Simon Stent, Wojciech Matusik, Antonio Torralba
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sood-etal2020 NeurIPS] Improving Natural Language Processing Tasks with Human Gaze-Guided Neural Attention.<a href="https://papers.nips.cc/paper/2020/file/460191c72f67e90150a093b4585e7eb4-Paper.pdf">[PDF]</a>
+<p><em>Ekta Sood, Simon Tannert, Philipp Mueller, Andreas Bulling</em></p>
 
-[He-etal2019] Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks. [PDF]
-Zhe He, Adrian Spurr, Xucong Zhang, Otmar Hilliges
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zheng-etal2020 NeurIPS] Self-Learning Transformations for Improving Gaze and Head Redirection.<a href="https://papers.nips.cc/paper/2020/file/98f2d76d4d9caf408180b5abfa83ae87-Paper.pdf">[PDF]</a>
+<p><em>Yufeng Zheng, Seonwook Park, Xucong Zhang, Shalini De Mello, Otmar Hilliges</em></p>
 
-[Park-etal2019] Few-Shot Adaptive Gaze Estimation. [PDF]
-Seonwook Park, Shalini De Mello, Pavlo Molchanov, Umar Iqbal, Otmar Hilliges, Jan Kautz
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zheng-etal2020 NeurIPS] Dynamic Fusion of Eye Movement Data and Verbal Narrations in Knowledge-rich Domains.<a href="https://papers.nips.cc/paper/2020/file/16837163fee34175358a47e0b51485ff-Paper.pdf">[PDF]</a>
+<p><em>Ervine Zheng, Qi Yu, Rui Li, Pengcheng Shi, Anne Haake</em></p>
 
-2019 CVPR
-[Xiong-etal2019] Mixed Effects Neural Networks (MeNets) With Applications to Gaze Estimation. [PDF]
-Yunyang Xiong, Hyunwoo J. Kim, Vikas Singh
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Orhan-etal2020 NeurIPS] Self-supervised learning through the eyes of a child.<a href="https://papers.nips.cc/paper/2020/file/7183145a2a3e0ce2b68cd3735186b1d5-Paper.pdf">[PDF]</a>
+<p><em>Emin Orhan, Vaibhav Gupta, Brenden M. Lake</em></p>
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2020 AAAI] A Coarse-to-Fine Adaptive Network for Appearance-Based Gaze Estimation.<a href="https://aaai.org/ojs/index.php/AAAI/article/view/6636/6490">[PDF]</a>
+<p><em>Yihua Cheng, Shiyao Huang, Fei Wang, Chen Qian, Feng Lu</em></p>
 
-[Yu-etal2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis. [PDF]
-Yu Yu, Gang Liu, Jean-Marc Odobez
 
-[Wang-etal2019] Neuro-Inspired Eye Tracking With Eye Movement Dynamics. [PDF]
-Kang Wang, Hui Su, Qiang Ji
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2019-iccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2019 ICCV</h3>
 
-[Wang-etal2019] Generalizing Eye Tracking With Bayesian Adversarial Learning. [PDF]
-Kang Wang, Rui Zhao, Hui Su, Qiang Ji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fan-etal2019] Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning. <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Fan_Understanding_Human_Gaze_Communication_by_Spatio-Temporal_Graph_Reasoning_ICCV_2019_paper.pdf">[PDF]</a>
+<p><em>Lifeng Fan, Wenguan Wang, Siyuan Huang, Xinyu Tang, Song-Chun Zhu </em></p>
 
-2019 Others
-[Hickson-etal2019 WACV] Eyemotion: Classifying Facial Expressions in VR Using Eye-Tracking Cameras. [PDF]
-Steven Hickson, Nick Dufour, Avneesh Sud, Vivek Kwatra, Irfan A. Essa
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kellnhofer-etal2019] Gaze360: Physically Unconstrained Gaze Estimation in the Wild. <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Kellnhofer_Gaze360_Physically_Unconstrained_Gaze_Estimation_in_the_Wild_ICCV_2019_paper.pdf">[PDF]</a>
+<p><em>Petr Kellnhofer, Adria Recasens, Simon Stent, Wojciech Matusik, Antonio Torralba </em></p>
 
-[Lian-etal2019 AAAI] RGBD Based Gaze Estimation via Multi-Task CNN.[PDF]
-Dongze Lian, Ziheng Zhang, Weixin Luo, Lina Hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[He-etal2019] Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks. <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/He_Photo-Realistic_Monocular_Gaze_Redirection_Using_Generative_Adversarial_Networks_ICCV_2019_paper.pdf">[PDF]</a>
+<p><em>Zhe He, Adrian Spurr, Xucong Zhang, Otmar Hilliges </em></p>
 
-2018 ECCV
-[Fischer-etal2018] RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments. [PDF]
-Tobias Fischer, Hyung Jin Chang, Yiannis Demiris
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Park-etal2019] Few-Shot Adaptive Gaze Estimation. <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Few-Shot_Adaptive_Gaze_Estimation_ICCV_2019_paper.pdf">[PDF]</a>
+<p><em>Seonwook Park, Shalini De Mello, Pavlo Molchanov, Umar Iqbal, Otmar Hilliges, Jan Kautz </em></p>
+<h3><a id="user-content-2019-cvpr" class="anchor" aria-hidden="true" href="#2019-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2019 CVPR</h3>
 
-[Yohanandan-etal2018] Saliency Preservation in Low-Resolution Grayscale Images. [PDF]
-Shivanthan Yohanandan, Andy Song, Adrian G. Dyer, Dacheng Tao
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xiong-etal2019] Mixed Effects Neural Networks (MeNets) With Applications to Gaze Estimation. <a href="">[PDF]</a>
+<p><em>Yunyang Xiong, Hyunwoo J. Kim, Vikas Singh</em></p>
 
-[Jiang-etal2018] DeepVS: A Deep Learning Based Video Saliency Prediction Approach. [PDF]
-Lai Jiang, Mai Xu, Tie Liu, Minglang Qiao, Zulin Wang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis. <a href="http://www.idiap.ch/~odobez/publications/YuLiuOdobez-CVPR2019.pdf">[PDF]</a>
+<p><em>Yu Yu, Gang Liu, Jean-Marc Odobez</em></p>
 
-[Kummerer-etal2018] Saliency Benchmarking Made Easy: Separating Models, Maps and Metrics. [PDF]
-Matthias Kummerer, Thomas S. A. Wallis, Matthias Bethge
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2019] Neuro-Inspired Eye Tracking With Eye Movement Dynamics. <a href="http://homepages.rpi.edu/~wangk10/papers/wang2019neural.pdf">[PDF]</a>
+<p><em>Kang Wang, Hui Su, Qiang Ji</em></p>
 
-[Zheng-etal2018] Task-driven Webpage Saliency. [PDF]
-Quanlong Zheng, Jianbo Jiao, Ying Cao, Rynson W.H. Lau
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2019] Generalizing Eye Tracking With Bayesian Adversarial Learning. <a href="https://www.semanticscholar.org/paper/Generalizing-Eye-Tracking-with-Bayesian-Adversarial-Wang-Zhao/77b9b6786699a236aad0c3fa3734730ece4a780f">[PDF]</a>
+<p><em>Kang Wang, Rui Zhao, Hui Su, Qiang Ji</em></p>
 
-[Zhang-etal2018] Saliency Detection in 360° Videos. [PDF]
-Ziheng Zhang, Yanyu Xu, Jingyi Yu, Shenghua Gao
+<h3><a id="user-content-2019-others" class="anchor" aria-hidden="true" href="#2019-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2019 Others</h3>
 
-[Song-etal2018] Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection. [PDF]
-Hongmei Song, Wenguan Wang, Sanyuan Zhao, Jianbing Shen, Kin-Man Lam
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hickson-etal2019 WACV] Eyemotion: Classifying Facial Expressions in VR Using Eye-Tracking Cameras. <a href="https://doi.org/10.1109/WACV.2019.00178">[PDF]</a>
+<p><em>Steven Hickson, Nick Dufour, Avneesh Sud, Vivek Kwatra, Irfan A. Essa</em></p>
 
-[Fan-etal2018] Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. [PDF]
-Deng-Ping Fan, Ming-Ming Cheng, Jiang-Jiang Liu, Shang-Hua Gao, Qibin Hou, Ali Borji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lian-etal2019 AAAI] RGBD Based Gaze Estimation via Multi-Task CNN.<a href="https://doi.org/10.1609/aaai.v33i01.33012488">[PDF]</a>
+<p><em>Dongze Lian, Ziheng Zhang, Weixin Luo, Lina Hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao</em></p>
 
-[Li-etal2018] Contour Knowledge Transfer for Salient Object Detection. [PDF]
-Xin Li, Fan Yang, Hong Cheng, Wei Liu, Dinggang Shen
 
-[Fan-etal2018] Associating Inter-image Salient Instances for Weakly Supervised Semantic Segmentation. [PDF]
-Ruochen Fan, Qibin Hou, Ming-Ming Cheng, Gang Yu, Ralph R. Martin, Shi-Min Hu
+<h3><a id="user-content-2018-eccv" class="anchor" aria-hidden="true" href="#2018-eccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2018 ECCV</h3>
 
-[Chen-etal2018] Reverse Attention for Salient Object Detection. [PDF]
-Shuhan Chen, Xiuli Tan, Ben Wang, Xuelong Hu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fischer-etal2018] RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-01249-6_21" rel="nofollow">[PDF]</a>
+<p><em>Tobias Fischer, Hyung Jin Chang, Yiannis Demiris</em></p>
 
-[Brau-etal2018] Multiple-Gaze Geometry: Inferring Novel 3D Locations from Gazes Observed in Monocular Video. [PDF]
-Ernesto Brau, Jinyan Guan, Tanya Jeffries, Kobus Barnard
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yohanandan-etal2018] Saliency Preservation in Low-Resolution Grayscale Images. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01231-1_15">[PDF]</a>
+<p><em>Shivanthan Yohanandan, Andy Song, Adrian G. Dyer, Dacheng Tao</em></p>
 
-[Recasens-etal2018] Learning to Zoom: a Saliency-Based Sampling Layer for Neural Networks. [PDF]
-Adrià Recasens, Petr Kellnhofer, Simon Stent, Wojciech Matusik, Antonio Torralba
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jiang-etal2018] DeepVS: A Deep Learning Based Video Saliency Prediction Approach. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01264-9_37">[PDF]</a>
+<p><em>Lai Jiang, Mai Xu, Tie Liu, Minglang Qiao, Zulin Wang</em></p>
 
-[Li-etal2018] In the Eye of Beholder: Joint Learning of Gaze and Actions in First Person Video. [PDF]
-Yin Li, Miao Liu, James M. Rehg
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kummerer-etal2018] Saliency Benchmarking Made Easy: Separating Models, Maps and Metrics. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01270-0_47">[PDF]</a>
+<p><em>Matthias Kummerer, Thomas S. A. Wallis, Matthias Bethge</em></p>
 
-[Huang-etal2018] Predicting Gaze in Egocentric Video by Learning Task-Dependent Attention Transition. [PDF]
-Yifei Huang, Minjie Cai, Zhenqiang Li, Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zheng-etal2018] Task-driven Webpage Saliency. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01264-9_18">[PDF]</a>
+<p><em>Quanlong Zheng, Jianbo Jiao, Ying Cao, Rynson W.H. Lau</em></p>
 
-[Produkin-etal2018] Deep Directional Statistics: Pose Estimation with Uncertainty Quantification. [PDF]
-Sergey Prokudin, Peter Gehler , Sebastian Nowozin
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2018] Saliency Detection in 360° Videos. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01234-2_30">[PDF]</a>
+<p><em>Ziheng Zhang, Yanyu Xu, Jingyi Yu, Shenghua Gao</em></p>
 
-[Chong-etal2018] Connecting Gaze, Scene, and Attention: Generalized Attention Estimation via Joint Modeling of Gaze and Scene Saliency. [PDF]
-Eunji Chong and Nataniel Ruiz and Yongxin Wang and Yun Zhang and Agata Rozga and James Rehg
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Song-etal2018] Pyramid Dilated Deeper ConvLSTM for Video Salient Object Detection. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01252-6_44" rel="nofollow">[PDF]</a>
+<p><em>Hongmei Song, Wenguan Wang, Sanyuan Zhao, Jianbing Shen, Kin-Man Lam</em></p>
 
-[Park-etal2018] Deep Pictorial Gaze Estimation. [PDF]
-Seonwook Park and Adrian Spurr and Otmar Hilliges
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fan-etal2018] Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01267-0_12" rel="nofollow">[PDF]</a>
+<p><em>Deng-Ping Fan, Ming-Ming Cheng, Jiang-Jiang Liu, Shang-Hua Gao, Qibin Hou, Ali Borji</em></p>
 
-[Cheng-etal2018] Appearance-Based Gaze Estimation via Evaluation-Guided Asymmetric Regression. [PDF]
-Cheng, Yihua and Lu, Feng and Zhang, Xucong
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2018] Contour Knowledge Transfer for Salient Object Detection. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01267-0_22" rel="nofollow">[PDF]</a>
+<p><em>Xin Li, Fan Yang, Hong Cheng, Wei Liu, Dinggang Shen</em></p>
 
-[Yu-etal2018 ECCVW] Deep Multitask Gaze Estimation with a Constrained Landmark-Gaze Model. [PDF]
-Yu Yu, Gang Liu, Jean-Marc Odobez
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fan-etal2018] Associating Inter-image Salient Instances for Weakly Supervised Semantic Segmentation. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01240-3_23" rel="nofollow">[PDF]</a>
+<p><em>Ruochen Fan, Qibin Hou, Ming-Ming Cheng, Gang Yu, Ralph R. Martin, Shi-Min Hu</em></p>
 
-2018 CVPR
-[Zhang-etal2018] Deep Unsupervised Saliency Detection: A Multiple Noisy Labeling Perspective. [PDF]
-Jing Zhang, Tong Zhang, Yuchao Dai, Mehrtash Harandi, Richard Hartley
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-etal2018] Reverse Attention for Salient Object Detection. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01240-3_15" rel="nofollow">[PDF]</a>
+<p><em>Shuhan Chen, Xiuli Tan, Ben Wang, Xuelong Hu</em></p>
 
-[Yu-etal2018] Recurrent Saliency Transformation Network: Incorporating Multi-Stage Visual Cues for Small Organ Segmentation. [PDF]
-Qihang Yu, Lingxi Xie, Yan Wang, Yuyin Zhou, Elliot K. Fishman, Alan L. Yuille
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Brau-etal2018] Multiple-Gaze Geometry: Inferring Novel 3D Locations from Gazes Observed in Monocular Video. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01225-0_38" rel="nofollow">[PDF]</a>
+<p><em>Ernesto Brau, Jinyan Guan, Tanya Jeffries, Kobus Barnard</em></p>
 
-[Gorji-etal2018] Going From Image to Video Saliency: Augmenting Image Salience With Dynamic Attentional Push. [PDF]
-Siavash Gorji, James J. Clark
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Recasens-etal2018] Learning to Zoom: a Saliency-Based Sampling Layer for Neural Networks. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01240-3_4" rel="nofollow">[PDF]</a>
+<p><em>Adrià Recasens, Petr Kellnhofer, Simon Stent, Wojciech Matusik, Antonio Torralba</em></p>
 
-[Islam-etal2018] Revisiting Salient Object Detection: Simultaneous Detection, Ranking, and Subitizing of Multiple Salient Objects. [PDF]
-Md Amirul Islam, Mahmoud Kalash, Neil D. B. Bruce
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2018] In the Eye of Beholder: Joint Learning of Gaze and Actions in First Person Video. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01228-1_38" rel="nofollow">[PDF]</a>
+<p><em>Yin Li, Miao Liu, James M. Rehg</em></p>
 
-[Wang-etal2018] Revisiting Video Saliency: A Large-Scale Benchmark and a New Model. [PDF]
-Wenguan Wang, Jianbing Shen, Fang Guo, Ming-Ming Cheng, Ali Borji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Huang-etal2018] Predicting Gaze in Egocentric Video by Learning Task-Dependent Attention Transition. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01225-0_46" rel="nofollow">[PDF]</a>
+<p><em>Yifei Huang, Minjie Cai, Zhenqiang Li, Yoichi Sato</em></p>
 
-[Li-etal2018] Flow Guided Recurrent Neural Encoder for Video Salient Object Detection. [PDF]
-Guanbin Li, Yuan Xie, Tianhao Wei, Keze Wang, Liang Lin
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Produkin-etal2018] Deep Directional Statistics: Pose Estimation with Uncertainty Quantification. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01240-3_33" rel="nofollow">[PDF]</a>
+<p><em>Sergey Prokudin, Peter Gehler , Sebastian Nowozin</em></p>
 
-[Wang-etal2018] Detect Globally, Refine Locally: A Novel Approach to Saliency Detection. [PDF]
-Tiantian Wang, Lihe Zhang, Shuo Wang, Huchuan Lu, Gang Yang, Xiang Ruan, Ali Borji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chong-etal2018] Connecting Gaze, Scene, and Attention: Generalized Attention Estimation via Joint Modeling of Gaze and Scene Saliency. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-01228-1_24" rel="nofollow">[PDF]</a>
+<p><em>Eunji Chong and Nataniel Ruiz and Yongxin Wang and Yun Zhang and Agata Rozga and James Rehg</em></p>
 
-[Liu-etal2018] PiCANet: Learning Pixel-Wise Contextual Attention for Saliency Detection. [PDF]
-Nian Liu, Junwei Han, Ming-Hsuan Yang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Park-etal2018] Deep Pictorial Gaze Estimation. <a href="https://arxiv.org/abs/1807.10002" rel="nofollow">[PDF]</a>
+<p><em>Seonwook Park and Adrian Spurr and Otmar Hilliges</em></p>
 
-[Chen-Li2018] Progressively Complementarity-Aware Fusion Network for RGB-D Salient Object Detection. [PDF]
-Hao Chen, Youfu Li
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2018] Appearance-Based Gaze Estimation via Evaluation-Guided Asymmetric Regression. <a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Yihua_Cheng_Appearance-Based_Gaze_Estimation_ECCV_2018_paper.html" rel="nofollow">[PDF]</a>
+<p><em>Cheng, Yihua and Lu, Feng and Zhang, Xucong</em></p>
 
-[Wang-etal2018] Salience Guided Depth Calibration for Perceptually Optimized Compressive Light Field 3D Display. [PDF]
-Shizheng Wang, Wenjuan Liao, Phil Surman, Zhigang Tu, Yuanjin Zheng, Junsong Yuan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2018 ECCVW] Deep Multitask Gaze Estimation with a Constrained Landmark-Gaze Model. <a href="https://link.springer.com/chapter/10.1007/978-3-030-11012-3_35" rel="nofollow">[PDF]</a>
+<p><em>Yu Yu, Gang Liu, Jean-Marc Odobez</em></p>
 
-[Zhang-etal2018] A Bi-Directional Message Passing Model for Salient Object Detection. [PDF]
-Lu Zhang, Ju Dai, Huchuan Lu, You He, Gang Wang
+<h3><a id="user-content-2018-cvpr" class="anchor" aria-hidden="true" href="#2018-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2018 CVPR</h3>
 
-[Wang-etal2018] Salient Object Detection Driven by Fixation Prediction. [PDF]
-Wenguan Wang, Jianbing Shen, Xingping Dong, Ali Borji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2018] Deep Unsupervised Saliency Detection: A Multiple Noisy Labeling Perspective. <a href="https://ieeexplore.ieee.org/document/8579039">[PDF]</a>
+<p><em>Jing Zhang, Tong Zhang, Yuchao Dai, Mehrtash Harandi, Richard Hartley</em></p>
 
-[Zeng-etal2018] Learning to Promote Saliency Detectors. [PDF]
-Yu Zeng, Huchuan Lu, Lihe Zhang, Mengyang Feng, Ali Borji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2018] Recurrent Saliency Transformation Network: Incorporating Multi-Stage Visual Cues for Small Organ Segmentation. <a href="https://ieeexplore.ieee.org/document/8578962">[PDF]</a>
+<p><em>Qihang Yu, Lingxi Xie, Yan Wang, Yuyin Zhou, Elliot K. Fishman, Alan L. Yuille</em></p>
 
-[Cheng-etal2018] Cube Padding for Weakly-Supervised Saliency Prediction in 360° Videos. [PDF]
-Hsien-Tzu Cheng, Chun-Hung Chao, Jin-Dong Dong, Hao-Kai Wen, Tyng-Luh Liu, Min Sun
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Gorji-etal2018] Going From Image to Video Saliency: Augmenting Image Salience With Dynamic Attentional Push. <a href="https://ieeexplore.ieee.org/document/8578881">[PDF]</a>
+<p><em>Siavash Gorji, James J. Clark</em></p>
 
-[Li-etal2018] Diversity Regularized Spatiotemporal Attention for Video-based Person Re-identification. [PDF]
-Shuang Li, Slawomir Bak, Peter Carr, Xiaogang Wang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Islam-etal2018] Revisiting Salient Object Detection: Simultaneous Detection, Ranking, and Subitizing of Multiple Salient Objects. <a href="https://ieeexplore.ieee.org/document/8578844">[PDF]</a>
+<p><em>Md Amirul Islam, Mahmoud Kalash, Neil D. B. Bruce</em></p>
 
-[Zhang-etal2018] Progressive Attention Guided Recurrent Network for Salient Object Detection. [PDF]
-Xiaoning Zhang, Tiantian Wang, Jinqing Qi, Huchuan Lu, Gang Wang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2018] Revisiting Video Saliency: A Large-Scale Benchmark and a New Model. <a href="https://ieeexplore.ieee.org/document/8578612">[PDF]</a>
+<p><em>Wenguan Wang, Jianbing Shen, Fang Guo, Ming-Ming Cheng, Ali Borji</em></p>
 
-[Zhu-etal2018] End-to-end Flow Correlation Tracking with Spatial-temporal Attention. [PDF]
-Zheng Zhu, Wei Wu, Wei Zou, Junjie Yan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2018] Flow Guided Recurrent Neural Encoder for Video Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8578440">[PDF]</a>
+<p><em>Guanbin Li, Yuan Xie, Tianhao Wei, Keze Wang, Liang Lin</em></p>
 
-[Dolhansky-Ferrer2018] Eye In-Painting with Exemplar Generative Adversarial Networks. [PDF]
-Brian Dolhansky, Cristian Canton Ferrer
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2018] Detect Globally, Refine Locally: A Novel Approach to Saliency Detection. <a href="https://ieeexplore.ieee.org/document/8578428">[PDF]</a>
+<p><em>Tiantian Wang, Lihe Zhang, Shuo Wang, Huchuan Lu, Gang Yang, Xiang Ruan, Ali Borji</em></p>
 
-[Xu-etal2018] Gaze Prediction in Dynamic 360° Immersive Videos. [PDF]
-Yanyu Xu, Yanbing Dong, Junru Wu, Zhengzhong Sun, Zhiru Shi, Jingyi Yu, Shenghua Gao
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Liu-etal2018] PiCANet: Learning Pixel-Wise Contextual Attention for Saliency Detection. <a href="https://ieeexplore.ieee.org/document/8578424">[PDF]</a>
+<p><em>Nian Liu, Junwei Han, Ming-Hsuan Yang</em></p>
 
-[Wang-etal2018] A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation. [PDF]
-Kang Wang, Rui Zhao, Qiang Ji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-Li2018] Progressively Complementarity-Aware Fusion Network for RGB-D Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8578420">[PDF]</a>
+<p><em>Hao Chen, Youfu Li</em></p>
 
-[Vasudevan-etal2018] Object Referring in Videos with Language and Human Gaze. [PDF]
-Arun Balajee Vasudevan, Dengxin Dai, Luc Van Gool
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2018] Salience Guided Depth Calibration for Perceptually Optimized Compressive Light Field 3D Display. <a href="https://ieeexplore.ieee.org/document/8578315">[PDF]</a>
+<p><em>Shizheng Wang, Wenjuan Liao, Phil Surman, Zhigang Tu, Yuanjin Zheng, Junsong Yuan</em></p>
 
-[Fan-etal2018] Inferring Shared Attention in Social Scene Videos. [PDF]
-Fan, Lifeng and Chen, Yixin and Wei, Ping and Wang, Wenguan and Zhu, Song-Chun
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2018] A Bi-Directional Message Passing Model for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8578285">[PDF]</a>
+<p><em>Lu Zhang, Ju Dai, Huchuan Lu, You He, Gang Wang</em></p>
 
-[Wei-etal2018] Where and Why Are They Looking? Jointly Inferring Human Attention and Intentions in Complex Tasks. [PDF]
-Ping Wei, Yang Liu, Tianmin Shu, Nanning Zheng, Song-Chun Zhu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2018] Salient Object Detection Driven by Fixation Prediction. <a href="https://ieeexplore.ieee.org/document/8578282">[PDF]</a>
+<p><em>Wenguan Wang, Jianbing Shen, Xingping Dong, Ali Borji</em></p>
 
-[Ranjan-etal2018 CVPRW] Light-weight Head Pose Invariant Gaze Tracking. [PDF]
-Rajeev Ranjan, Shalini De Mello, Jan Kautz
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zeng-etal2018] Learning to Promote Saliency Detectors. <a href="https://ieeexplore.ieee.org/document/8578275">[PDF]</a>
+<p><em>Yu Zeng, Huchuan Lu, Lihe Zhang, Mengyang Feng, Ali Borji</em></p>
 
-2018 Others
-[Palmero-etal2018 BMVC] Recurrent CNN for 3D Gaze Estimation using Appearance and Shape Cues. [PDF]
-Cristina Palmero, Javier Selva, Mohammad Ali Bagheri, Sergio Escalera
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2018] Cube Padding for Weakly-Supervised Saliency Prediction in 360° Videos. <a href="https://ieeexplore.ieee.org/document/8578252">[PDF]</a>
+<p><em>Hsien-Tzu Cheng, Chun-Hung Chao, Jin-Dong Dong, Hao-Kai Wen, Tyng-Luh Liu, Min Sun</em></p>
 
-[Liu-etal2018 BMVC] A Differential Approach for Gaze Estimation with Calibration. [PDF]
-Liu, Gang and Yu, Yu and Funes-Mora, Kenneth A and Odobez, Jean-Marc and SA, Eyeware Tech
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2018] Diversity Regularized Spatiotemporal Attention for Video-based Person Re-identification. <a href="https://ieeexplore.ieee.org/document/8578144">[PDF]</a>
+<p><em>Shuang Li, Slawomir Bak, Peter Carr, Xiaogang Wang</em></p>
 
-2017 ICCV
-[Zhang-etal2017] Supervision by Fusion: Towards Unsupervised Learning of Deep Salient Object Detector. [PDF]
-Dingwen Zhang, Junwei Han, Yu Zhang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2018] Progressive Attention Guided Recurrent Network for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8578179">[PDF]</a>
+<p><em>Xiaoning Zhang, Tiantian Wang, Jinqing Qi, Huchuan Lu, Gang Wang</em></p>
 
-[Wang-etal2017] A Stagewise Refinement Model for Detecting Salient Objects in Images. [PDF]
-Tiantian Wang, Ali Borji, Lihe Zhang, Pingping Zhang, Huchuan Lu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhu-etal2018] End-to-end Flow Correlation Tracking with Spatial-temporal Attention. <a href="https://ieeexplore.ieee.org/document/8578162">[PDF]</a>
+<p><em>Zheng Zhu, Wei Wu, Wei Zou, Junjie Yan</em></p>
 
-[He-etal2017] Delving Into Salient Object Subitizing and Detection. [PDF]
-Shengfeng He, Jianbo Jiao, Xiaodan Zhang, Guoqiang Han, Rynson W.H. Lau
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Dolhansky-Ferrer2018] Eye In-Painting with Exemplar Generative Adversarial Networks. <a href="https://ieeexplore.ieee.org/document/8578922">[PDF]</a>
+<p><em>Brian Dolhansky, Cristian Canton Ferrer</em></p>
 
-[Chen-etal2017] Look, Perceive and Segment: Finding the Salient Objects in Images via Two-Stream Fixation-Semantic CNNs. [PDF]
-Xiaowu Chen, Anlin Zheng, Jia Li, Feng Lu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xu-etal2018] Gaze Prediction in Dynamic 360° Immersive Videos. <a href="https://ieeexplore.ieee.org/document/8578657">[PDF]</a>
+<p><em>Yanyu Xu, Yanbing Dong, Junru Wu, Zhengzhong Sun, Zhiru Shi, Jingyi Yu, Shenghua Gao</em></p>
 
-[Zhang-etal2017] Learning Uncertain Convolutional Features for Accurate Saliency Detection. [PDF]
-Pingping Zhang, Dong Wang, Huchuan Lu, Hongyu Wang, Baocai Yin
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2018] A Hierarchical Generative Model for Eye Image Synthesis and Eye Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/8578151">[PDF]</a>
+<p><em>Kang Wang, Rui Zhao, Qiang Ji</em></p>
 
-[Zhang-etal2017] Amulet: Aggregating Multi-Level Convolutional Features for Salient Object Detection. [PDF]
-Pingping Zhang, Dong Wang, Huchuan Lu, Hongyu Wang, Xiang Ruan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Vasudevan-etal2018] Object Referring in Videos with Language and Human Gaze. <a href="https://ieeexplore.ieee.org/document/8578532">[PDF]</a>
+<p><em>Arun Balajee Vasudevan, Dengxin Dai, Luc Van Gool</em></p>
 
-[Zhu-etal2017] Saliency Pattern Detection by Ranking Structured Trees. [PDF]
-Lei Zhu, Haibin Ling, Jin Wu, Huiping Deng, Jin Liu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Fan-etal2018] Inferring Shared Attention in Social Scene Videos. <a href="https://ieeexplore.ieee.org/document/8578774" rel="nofollow">[PDF]</a>
+<p><em>Fan, Lifeng and Chen, Yixin and Wei, Ping and Wang, Wenguan and Zhu, Song-Chun</em></p>
 
-[Leifman-etal2017] Learning Gaze Transitions From Depth to Improve Video Saliency Estimation. [PDF]
-George Leifman, Dmitry Rudoy, Tristan Swedish, Eduardo Bayro-Corrochano, Ramesh Raskar
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wei-etal2018] Where and Why Are They Looking? Jointly Inferring Human Attention and Intentions in Complex Tasks. <a href="https://ieeexplore.ieee.org/document/8578809" rel="nofollow">[PDF]</a>
+<p><em>Ping Wei, Yang Liu, Tianmin Shu, Nanning Zheng, Song-Chun Zhu</em></p>
 
-[Wang-Ji2017] Real Time Eye Gaze Tracking With 3D Deformable Eye-Face Model. [PDF]
-Kang Wang, Qiang Ji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Ranjan-etal2018 CVPRW] Light-weight Head Pose Invariant Gaze Tracking. <a href="https://ieeexplore.ieee.org/document/8575461" rel="nofollow">[PDF]</a>
+<p><em>Rajeev Ranjan, Shalini De Mello, Jan Kautz</em></p>
 
-[Deng-Zhu2017] Monocular Free-Head 3D Gaze Tracking with Deep Learning and Geometry Constraints. [PDF]
-Haoping Deng and Wangjiang Zhu
+<h3><a id="user-content-2018-others" class="anchor" aria-hidden="true" href="#2018-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2018 Others</h3>
 
-[Recasens-etal2017] Following Gaze in Video. [PDF]
-Adria Recasens and Carl Vondrick and Aditya Khosla and Antonio Torralba
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Palmero-etal2018 BMVC] Recurrent CNN for 3D Gaze Estimation using Appearance and Shape Cues. <a href="https://www.semanticscholar.org/paper/Recurrent-CNN-for-3D-Gaze-Estimation-using-and-Cues-Palmero-Selva/5fc81eeb3920771984f5824bd4d4524016869f02" rel="nofollow">[PDF]</a>
+<p><em>Cristina Palmero, Javier Selva, Mohammad Ali Bagheri, Sergio Escalera</em></p>
 
-2017 CVPR
-[Shrivastava-etal2017] Learning From Simulated and Unsupervised Images Through Adversarial Training. [PDF]
-Ashish Shrivastava, Tomas Pfister, Oncel Tuzel, Joshua Susskind, Wenda Wang, Russell Webb
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Liu-etal2018 BMVC] A Differential Approach for Gaze Estimation with Calibration. <a href="https://www.semanticscholar.org/paper/A-Differential-Approach-for-Gaze-Estimation-with-Liu-Yu/0310d31020ae59bf3d6ac61b6206dfc0e79b4efe" rel="nofollow">[PDF]</a>
+<p><em>Liu, Gang and Yu, Yu and Funes-Mora, Kenneth A and Odobez, Jean-Marc and SA, Eyeware Tech</em></p>
 
-[Wang-etal2017] Learning to Detect Salient Objects With Image-Level Supervision. [PDF]
-Lijun Wang, Huchuan Lu, Yifan Wang, Mengyang Feng, Dong Wang, Baocai Yin, Xiang Ruan
 
-[Ramanishka-etal2017] Top-Down Visual Saliency Guided by Captions. [PDF]
-Vasili Ramanishka, Abir Das, Jianming Zhang, Kate Saenko
 
-[Luo-etal2017] Non-Local Deep Features for Salient Object Detection. [PDF]
-Zhiming Luo, Akshaya Mishra, Andrew Achkar, Justin Eichel, Shaozi Li, Pierre-Marc Jodoin
+<h3><a id="user-content-2017-iccv" class="anchor" aria-hidden="true" href="#2017-iccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2017 ICCV</h3>
 
-[Xia-etal2017] What Is and What Is Not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors. [PDF]
-Changqun Xia, Jia Li, Xiaowu Chen, Anlin Zheng, Yu Zhang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017]  Supervision by Fusion: Towards Unsupervised Learning of Deep Salient Object Detector. <a href="https://ieeexplore.ieee.org/document/8237698">[PDF]</a>
+<p><em>Dingwen Zhang, Junwei Han, Yu Zhang</em></p>
 
-[Hou-etal2017] Deeply Supervised Salient Object Detection With Short Connections. [PDF]
-Qibin Hou, Ming-Ming Cheng, Xiaowei Hu, Ali Borji, Zhuowen Tu, Philip H. S. Torr
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2017]  A Stagewise Refinement Model for Detecting Salient Objects in Images. <a href="https://ieeexplore.ieee.org/document/8237695">[PDF]</a>
+<p><em>Tiantian Wang, Ali Borji, Lihe Zhang, Pingping Zhang, Huchuan Lu</em></p>
 
-[Li-etal2017] Instance-Level Salient Object Segmentation. [PDF]
-Guanbin Li, Yuan Xie, Liang Lin, Yizhou Yu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[He-etal2017]  Delving Into Salient Object Subitizing and Detection. <a href="https://ieeexplore.ieee.org/document/8237382">[PDF]</a>
+<p><em>Shengfeng He, Jianbo Jiao, Xiaodan Zhang, Guoqiang Han, Rynson W.H. Lau</em></p>
 
-[Hu-etal2017] Deep Level Sets for Salient Object Detection. [PDF]
-Ping Hu, Bing Shuai, Jun Liu, Gang Wang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-etal2017]  Look, Perceive and Segment: Finding the Salient Objects in Images via Two-Stream Fixation-Semantic CNNs. <a href="https://ieeexplore.ieee.org/document/8237381">[PDF]</a>
+<p><em>Xiaowu Chen, Anlin Zheng, Jia Li, Feng Lu</em></p>
 
-[Tavakoli-etal2017] Saliency Revisited: Analysis of Mouse Movements Versus Fixations. [PDF]
-Hamed R. Tavakoli, Fawad Ahmed, Ali Borji, Jorma Laaksonen
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017]  Learning Uncertain Convolutional Features for Accurate Saliency Detection. <a href="https://ieeexplore.ieee.org/document/8237294">[PDF]</a>
+<p><em>Pingping Zhang, Dong Wang, Huchuan Lu, Hongyu Wang, Baocai Yin</em></p>
 
-[Karessli-etal2017] Gaze Embeddings for Zero-Shot Image Classification. [PDF]
-Nour Karessli, Zeynep Akata, Bernt Schiele, Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017]  Amulet: Aggregating Multi-Level Convolutional Features for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8237293">[PDF]</a>
+<p><em>Pingping Zhang, Dong Wang, Huchuan Lu, Hongyu Wang, Xiang Ruan</em></p>
 
-[Zhang-etal2017] Deep Future Gaze: Gaze Anticipation on Egocentric Videos Using Adversarial Networks. [PDF]
-Mengmi Zhang, Keng Teck Ma, Joo Hwee Lim, Qi Zhao, Jiashi Feng
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhu-etal2017]  Saliency Pattern Detection by Ranking Structured Trees. <a href="https://ieeexplore.ieee.org/document/8237845">[PDF]</a>
+<p><em>Lei Zhu, Haibin Ling, Jin Wu, Huiping Deng, Jin Liu</em></p>
 
-[Zhang-etal2017 CVPRW] It's Written All Over Your Face: Full-Face Appearance-Based Gaze Estimation. [PDF]
-Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Leifman-etal2017] Learning Gaze Transitions From Depth to Improve Video Saliency Estimation. <a href="https://ieeexplore.ieee.org/document/8237450">[PDF]</a>
+<p><em>George Leifman, Dmitry Rudoy, Tristan Swedish, Eduardo Bayro-Corrochano, Ramesh Raskar</em></p>
 
-2017 Others
-[Zhang-etal2017 UIST] Everyday Eye Contact Detection Using Unsupervised Gaze Target Discovery. [PDF]
-Xucong Zhang and Yusuke Sugano and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-Ji2017] Real Time Eye Gaze Tracking With 3D Deformable Eye-Face Model. <a href="https://ieeexplore.ieee.org/document/8237376">[PDF]</a>
+<p><em>Kang Wang, Qiang Ji</em></p>
 
-2016 ECCV
-[Wood-etal2016] A 3D Morphable Eye Region Model for Gaze Estimation. [PDF]
-Erroll Wood and Tadas Baltrusaitis and Louis-Philippe Morency and Peter Robinson and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Deng-Zhu2017] Monocular Free-Head 3D Gaze Tracking with Deep Learning and Geometry Constraints. <a href="https://ieeexplore.ieee.org/document/8237603" rel="nofollow">[PDF]</a>
+<p><em>Haoping Deng and Wangjiang Zhu</em></p>
 
-[Yaroslav-etal2016] DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation. [PDF]
-Ganin, Yaroslav, Daniil Kononenko, Diana Sungatullina, and Victor Lempitsky
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Recasens-etal2017] Following Gaze in Video. <a href="https://ieeexplore.ieee.org/document/8237422" rel="nofollow">[PDF]</a>
+<p><em>Adria Recasens and Carl Vondrick and Aditya Khosla and Antonio Torralba</em></p>
 
-[Jongpil-Pavlovic2016] A Shape-based Approach for Salient Object Detection Using Deep Learning. [PDF]
-Kim, Jongpil, and Vladimir Pavlovic
+<h3><a id="user-content-2017-cvpr" class="anchor" aria-hidden="true" href="#2017-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2017 CVPR</h3>
 
-[Linzhao-etal2016] Saliency Detection with Recurrent Fully Convolutional Networks. [PDF]
-Wang, Linzhao, Lijun Wang, Huchuan Lu, Pingping Zhang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Shrivastava-etal2017] Learning From Simulated and Unsupervised Images Through Adversarial Training. <a href="https://ieeexplore.ieee.org/document/8099724">[PDF]</a>
+<p><em>Ashish Shrivastava, Tomas Pfister, Oncel Tuzel, Joshua Susskind, Wenda Wang, Russell Webb</em></p>
 
-[Tiantian-etal2016] Kernelized Subspace Ranking for Saliency Detection. [PDF]
-Wang, Tiantian, Lihe Zhang, Huchuan Lu, Chong Sun, and Jinqing Qi
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2017] Learning to Detect Salient Objects With Image-Level Supervision. <a href="https://ieeexplore.ieee.org/document/8099887">[PDF]</a>
+<p><em>Lijun Wang, Huchuan Lu, Yifan Wang, Mengyang Feng, Dong Wang, Baocai Yin, Xiang Ruan</em></p>
 
-[Youbao-Wu2016] Saliency Detection via Combining Region-Level and Pixel-Level Predictions with CNNs. [PDF]
-Tang, Youbao, and Xiangqian Wu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Ramanishka-etal2017] Top-Down Visual Saliency Guided by Captions. <a href="https://ieeexplore.ieee.org/document/8099817">[PDF]</a>
+<p><em>Vasili Ramanishka, Abir Das, Jianming Zhang, Kate Saenko</em></p>
 
-[Yuqiu-etal2016] Pattern Mining Saliency. [PDF]
-Kong, Yuqiu, Lijun Wang, Xiuping Liu, Huchuan Lu, and Xiang Ruan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Luo-etal2017] Non-Local Deep Features for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8100181">[PDF]</a>
+<p><em>Zhiming Luo, Akshaya Mishra, Andrew Achkar, Justin Eichel, Shaozi Li, Pierre-Marc Jodoin</em></p>
 
-[Zoya-etal2016] Where should saliency models look next?. [PDF]
-Bylinskii, Zoya, Adrià Recasens, Ali Borji, Aude Oliva, Antonio Torralba, and Frédo Durand
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xia-etal2017] What Is and What Is Not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors. <a href="https://ieeexplore.ieee.org/document/8099951">[PDF]</a>
+<p><em>Changqun Xia, Jia Li, Xiaowu Chen, Anlin Zheng, Yu Zhang</em></p>
 
-[Aravindh-Vedaldi2016] Salient Deconvolutional Networks. [PDF]
-Mahendran, Aravindh, and Andrea Vedaldi
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hou-etal2017] Deeply Supervised Salient Object Detection With Short Connections. <a href="https://ieeexplore.ieee.org/document/8315520">[PDF]</a>
+<p><em>Qibin Hou, Ming-Ming Cheng, Xiaowei Hu, Ali Borji, Zhuowen Tu, Philip H. S. Torr</em></p>
 
-2016 CVPR
-[Krafka-etal2016] Eye Tracking for Everyone. [PDF]
-Kyle Krafka and Aditya Khosla and Petr Kellnhofer and Harini Kannan and Suchendra Bhandarkar and Wojciech Matusik and Antonio Torralba
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2017] Instance-Level Salient Object Segmentation. <a href="https://ieeexplore.ieee.org/document/8099517">[PDF]</a>
+<p><em>Guanbin Li, Yuan Xie, Liang Lin, Yizhou Yu</em></p>
 
-[Yu-etal2016] Learning Reconstruction-Based Remote Gaze Estimation. [PDF]
-Pei Yu and Jiahuan Zhou and Ying Wu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hu-etal2017] Deep Level Sets for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/8099548">[PDF]</a>
+<p><em>Ping Hu, Bing Shuai, Jun Liu, Gang Wang</em></p>
 
-[Kruthiventi-etal2016] Saliency Unified: A Deep Architecture for Simultaneous Eye Fixation Prediction and Salient Object Segmentation. [PDF]
-Srinivas S. S. Kruthiventi, Vennela Gudisa, Jaley H. Dholakiya, R. Venkatesh Babu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tavakoli-etal2017] Saliency Revisited: Analysis of Mouse Movements Versus Fixations. <a href="https://ieeexplore.ieee.org/document/8100156">[PDF]</a>
+<p><em>Hamed R. Tavakoli, Fawad Ahmed, Ali Borji, Jorma Laaksonen</em></p>
 
-[Volokitin-etal2016] Predicting When Saliency Maps Are Accurate and Eye Fixations Consistent. [PDF]
-Anna Volokitin, Michael Gygli, Xavier Boix
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Karessli-etal2017] Gaze Embeddings for Zero-Shot Image Classification. <a href="https://ieeexplore.ieee.org/document/8100162">[PDF]</a>
+<p><em>Nour Karessli, Zeynep Akata, Bernt Schiele, Andreas Bulling</em></p>
 
-[Kuen-etal2016] Recurrent Attentional Networks for Saliency Detection. [PDF]
-Jason Kuen, Zhenhua Wang, Gang Wang
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017] Deep Future Gaze: Gaze Anticipation on Egocentric Videos Using Adversarial Networks. <a href="https://ieeexplore.ieee.org/document/8099860" rel="nofollow">[PDF]</a>
+<p><em>Mengmi Zhang, Keng Teck Ma, Joo Hwee Lim, Qi Zhao, Jiashi Feng</em></p>
 
-[Cholakkal-etal2016] Backtracking ScSPM Image Classifier for Weakly Supervised Top-Down Saliency. [PDF]
-Hisham Cholakkal, Jubin Johnson, Deepu Rajan
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017 CVPRW] It's Written All Over Your Face: Full-Face Appearance-Based Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/8015018" rel="nofollow">[PDF]</a>
+<p><em>Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling</em></p>
 
-[He-Lau2016] Exemplar-Driven Top-Down Saliency Detection via Deep Association. [PDF]
-Shengfeng He, Rynson W.H. Lau
+<h3><a id="user-content-2017-others" class="anchor" aria-hidden="true" href="#2017-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2017 Others</h3>
 
-[Zhang-etal2016] Unconstrained Salient Object Detection via Proposal Subset Optimization. [PDF]
-Jianming Zhang, Stan Sclaroff, Zhe Lin, Xiaohui Shen, Brian Price, Radomir Mech
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2017 UIST] Everyday Eye Contact Detection Using Unsupervised Gaze Target Discovery. <a href="https://dl.acm.org/citation.cfm?id=3126594.3126614" rel="nofollow">[PDF]</a>
+<p><em>Xucong Zhang and Yusuke Sugano and Andreas Bulling</em></p>
 
-[Jetley-etal2016] End-To-End Saliency Mapping via Probability Distribution Prediction. [PDF]
-Saumya Jetley, Naila Murray, Eleonora Vig
 
-[Li-Yu2016] Deep Contrast Learning for Salient Object Detection. [PDF]
-Guanbin Li, Yizhou Yu
+<h3><a id="user-content-2016-eccv" class="anchor" aria-hidden="true" href="#2016-eccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2016 ECCV</h3>
 
-[Bruce-etal2016] A Deeper Look at Saliency: Feature Contrast, Semantics, and Beyond. [PDF]
-Neil D. B. Bruce, Christopher Catton, Sasa Janjic
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wood-etal2016] A 3D Morphable Eye Region Model for Gaze Estimation. <a href="https://www.semanticscholar.org/paper/A-3D-Morphable-Eye-Region-Model-for-Gaze-Estimation-Wood-Baltrusaitis/c34532fe6bfbd1e6df477c9ffdbb043b77e7804d" rel="nofollow">[PDF]</a>
+<p><em>Erroll Wood and Tadas Baltrusaitis and Louis-Philippe Morency and Peter Robinson and Andreas Bulling</em></p>
 
-[Wloka-Tsotsos2016] Spatially Binned ROC: A Comprehensive Saliency Metric. [PDF]
-Calden Wloka, John Tsotsos
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yaroslav-etal2016] DeepWarp: Photorealistic Image Resynthesis for Gaze Manipulation. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46475-6_20" rel="nofollow">[PDF]</a>
+<p><em>Ganin, Yaroslav, Daniil Kononenko, Diana Sungatullina, and Victor Lempitsky</em></p>
 
-[Pan-etal2016] Shallow and Deep Convolutional Networks for Saliency Prediction. [PDF]
-Junting Pan, Elisa Sayrol, Xavier Giro-i-Nieto, Kevin McGuinness, Noel E. O'Connor
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jongpil-Pavlovic2016] A Shape-based Approach for Salient Object Detection Using Deep Learning. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46493-0_28" rel="nofollow">[PDF]</a>
+<p><em>Kim, Jongpil, and Vladimir Pavlovic</em></p>
 
-[Lee-etal2016] Deep Saliency With Encoded Low Level Distance Map and High Level Features. [PDF]
-Gayoung Lee, Yu-Wing Tai, Junmo Kim
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Linzhao-etal2016] Saliency Detection with Recurrent Fully Convolutional Networks. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46493-0_50" rel="nofollow">[PDF]</a>
+<p><em>Wang, Linzhao, Lijun Wang, Huchuan Lu, Pingping Zhang</em></p>
 
-[Liu-Han2016] DHSNet: Deep Hierarchical Saliency Network for Salient Object Detection. [PDF]
-Nian Liu, Junwei Han
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tiantian-etal2016] Kernelized Subspace Ranking for Saliency Detection. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46484-8_27" rel="nofollow">[PDF]</a>
+<p><em>Wang, Tiantian, Lihe Zhang, Huchuan Lu, Chong Sun, and Jinqing Qi</em></p>
 
-[Tu-etal2016] Real-Time Salient Object Detection With a Minimum Spanning Tree. [PDF]
-Wei-Chih Tu, Shengfeng He, Qingxiong Yang, Shao-Yi Chien
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Youbao-Wu2016] Saliency Detection via Combining Region-Level and Pixel-Level Predictions with CNNs. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46484-8_49" rel="nofollow">[PDF]</a>
+<p><em>Tang, Youbao, and Xiangqian Wu</em></p>
 
-[Feng-etal2016] Local Background Enclosure for RGB-D Salient Object Detection. [PDF]
-David Feng, Nick Barnes, Shaodi You, Chris McCarthy
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yuqiu-etal2016] Pattern Mining Saliency. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46466-4_35" rel="nofollow">[PDF]</a>
+<p><em>Kong, Yuqiu, Lijun Wang, Xiuping Liu, Huchuan Lu, and Xiang Ruan</em></p>
 
-[Jeni-Cohn2016 CVPRW] Person-Independent 3D Gaze Estimation Using Face Frontalization. [PDF]
-Laszlo A. Jeni and Jeffrey F. Cohn
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zoya-etal2016] Where should saliency models look next?. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46454-1_49" rel="nofollow">[PDF]</a>
+<p><em>Bylinskii, Zoya, Adrià Recasens, Ali Borji, Aude Oliva, Antonio Torralba, and Frédo Durand</em></p>
 
-2016 Others
-[Wood-etal2016 ETRA] Learning an appearance-based gaze estimator from one million synthesised images. [PDF]
-Erroll Wood and Tadas Baltrušaitis and Louis-Philippe Morency and Peter Robinson and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Aravindh-Vedaldi2016] Salient Deconvolutional Networks. <a href="https://link.springer.com/chapter/10.1007/978-3-319-46466-4_8" rel="nofollow">[PDF]</a>
+<p><em>Mahendran, Aravindh, and Andrea Vedaldi</em></p>
 
-[Tonsen-etal2016 ETRA] Labelled pupils in the wild: a dataset for studying pupil detection in unconstrained environments. [PDF]
-Marc Tonsen and Xucong Zhang and Yusuke Sugano and Andreas Bulling
+<h3><a id="user-content-2016-cvpr" class="anchor" aria-hidden="true" href="#2016-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2016 CVPR</h3>
 
-[Ghiass-Arandjelovic2016 IJCAI] Highly accurate gaze estimation using a consumer RGB-depth sensor. [PDF]
-Reza Shoja Ghiass and Ognjen Arandjelovic
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Krafka-etal2016] Eye Tracking for Everyone. <a href="https://ieeexplore.ieee.org/document/7780608" rel="nofollow">[PDF]</a>
+<p><em>Kyle Krafka and Aditya Khosla and Petr Kellnhofer and Harini Kannan and Suchendra Bhandarkar and Wojciech Matusik and Antonio Torralba</em></p>
 
-2015 ICCV
-[Wood-etal2015] Rendering of Eyes for Eye-Shape Registration and Gaze Estimation. [PDF]
-Erroll Wood and Tadas Baltruaitis and Xucong Zhang and Yusuke Sugano and Peter Robinson and Andreas Bullingo
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yu-etal2016] Learning Reconstruction-Based Remote Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/7780744" rel="nofollow">[PDF]</a>
+<p><em>Pei Yu and Jiahuan Zhou and Ying Wu</em></p>
 
-2015 CVPR
-[Zhang-etal2015] Appearance-based gaze estimation in the wild. [PDF]
-Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kruthiventi-etal2016] Saliency Unified: A Deep Architecture for Simultaneous Eye Fixation Prediction and Salient Object Segmentation. <a href="https://ieeexplore.ieee.org/document/7780992" rel="nofollow">[PDF]</a>
+<p><em>Srinivas S. S. Kruthiventi, Vennela Gudisa, Jaley H. Dholakiya, R. Venkatesh Babu</em></p>
 
-2015 Others
-[Wang-etal2015 ISKE] A Survey on Gaze Estimation. [PDF]
-Xiaomeng Wang and Kang Liu and Xu Qian
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Volokitin-etal2016] Predicting When Saliency Maps Are Accurate and Eye Fixations Consistent. <a href="https://ieeexplore.ieee.org/document/7780434" rel="nofollow">[PDF]</a>
+<p><em>Anna Volokitin, Michael Gygli, Xavier Boix</em></p>
 
-2014 CVPR
-[Sugano-etal2014] Learning-by-Synthesis for Appearance-Based 3D Gaze Estimation. [PDF]
-Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kuen-etal2016] Recurrent Attentional Networks for Saliency Detection. <a href="https://ieeexplore.ieee.org/document/7780768" rel="nofollow">[PDF]</a>
+<p><em>Jason Kuen, Zhenhua Wang, Gang Wang</em></p>
 
-[Mora-Odobez2014] Geometric Generative Gaze Estimation (G3E) for Remote RGB-D Cameras. [PDF]
-Kenneth Alberto Funes Mora and Jean-Marc Odobez
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cholakkal-etal2016] Backtracking ScSPM Image Classifier for Weakly Supervised Top-Down Saliency. <a href="https://ieeexplore.ieee.org/document/7780939" rel="nofollow">[PDF]</a>
+<p><em>Hisham Cholakkal, Jubin Johnson, Deepu Rajan</em></p>
 
-2014 Others
-[Mora-etal2014 ETRA] EYEDIAP: a database for the development and evaluation of gaze estimation algorithms from RGB and RGB-D cameras. [PDF]
-Kenneth Alberto Funes Mora and Florent Monay and Jean-Marc Odobez
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[He-Lau2016] Exemplar-Driven Top-Down Saliency Detection via Deep Association. <a href="https://ieeexplore.ieee.org/document/7780986" rel="nofollow">[PDF]</a>
+<p><em>Shengfeng He, Rynson W.H. Lau</em></p>
 
-[Jianfeng-Shigang2014 CVPRW] Eye-Model-Based Gaze Estimation by RGB-D Camera. [PDF]
-Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2016] Unconstrained Salient Object Detection via Proposal Subset Optimization. <a href="https://ieeexplore.ieee.org/document/7780987" rel="nofollow">[PDF]</a>
+<p><em>Jianming Zhang, Stan Sclaroff, Zhe Lin, Xiaohui Shen, Brian Price, Radomir Mech</em></p>
 
-[Cazzato-etal2014 ICPRW] Pervasive Retail Strategy Using a Low-Cost Free Gaze Estimation System. [PDF]
-Dario Cazzato and Marco Leo and Paolo Spagnolo and Cosimo Distante
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jetley-etal2016] End-To-End Saliency Mapping via Probability Distribution Prediction. <a href="https://ieeexplore.ieee.org/document/7780989" rel="nofollow">[PDF]</a>
+<p><em>Saumya Jetley, Naila Murray, Eleonora Vig</em></p>
 
-[Schneider-etal2014 ICPR] Manifold Alignment for Person Independent Appearance-Based Gaze Estimation. [PDF]
-Timo Schneider and Boris Schauerte and Rainer Stiefelhagen
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-Yu2016] Deep Contrast Learning for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/7780427" rel="nofollow">[PDF]</a>
+<p><em>Guanbin Li, Yizhou Yu</em></p>
 
-[Kassner-etal2014 UbiComp] Pupil: an open source platform for pervasive eye tracking and mobile gaze-based interaction. [PDF]
-Moritz Kassner and William Patera and Andreas Bulling
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Bruce-etal2016] A Deeper Look at Saliency: Feature Contrast, Semantics, and Beyond. <a href="https://ieeexplore.ieee.org/document/7780431" rel="nofollow">[PDF]</a>
+<p><em>Neil D. B. Bruce, Christopher Catton, Sasa Janjic</em></p>
 
-Before 2014 ICCV
-[Alnajar-etal2013] Calibration-Free Gaze Estimation Using Human Gaze Patterns. [PDF]
-Fares Alnajar and Theo Gevers and Roberto Valenti and Sennay Ghebreab
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wloka-Tsotsos2016] Spatially Binned ROC: A Comprehensive Saliency Metric. <a href="https://ieeexplore.ieee.org/document/7780432" rel="nofollow">[PDF]</a>
+<p><em>Calden Wloka, John Tsotsos</em></p>
 
-[Lu-etal2011a] Inferring human gaze from appearance via adaptive linear regression. [PDF]
-Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Pan-etal2016] Shallow and Deep Convolutional Networks for Saliency Prediction. <a href="https://ieeexplore.ieee.org/document/7780440" rel="nofollow">[PDF]</a>
+<p><em>Junting Pan, Elisa Sayrol, Xavier Giro-i-Nieto, Kevin McGuinness, Noel E. O'Connor</em></p>
 
-[Wang-etal2003] Eye gaze estimation from a single image of one eye. [PDF]
-Wang and Sung and Ronda Venkateswarlu
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lee-etal2016] Deep Saliency With Encoded Low Level Distance Map and High Level Features. <a href="https://ieeexplore.ieee.org/document/7780447" rel="nofollow">[PDF]</a>
+<p><em>Gayoung Lee, Yu-Wing Tai, Junmo Kim</em></p>
 
-Before 2014 ECCV
-[Sugano-etal2008] An Incremental Learning Method for Unconstrained Gaze Estimation. [PDF]
-Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Liu-Han2016] DHSNet: Deep Hierarchical Saliency Network for Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/7780449" rel="nofollow">[PDF]</a>
+<p><em>Nian Liu, Junwei Han</em></p>
 
-Before 2014 CVPR
-[Baltrusaitis-etal2012] 3D Constrained Local Model for rigid and non-rigid facial tracking. [PDF]
-T. Baltrusaitis and P. Robinson and L. Morency
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tu-etal2016] Real-Time Salient Object Detection With a Minimum Spanning Tree. <a href="https://ieeexplore.ieee.org/document/7780625" rel="nofollow">[PDF]</a>
+<p><em>Wei-Chih Tu, Shengfeng He, Qingxiong Yang, Shao-Yi Chien</em></p>
 
-[Mora-Odobez2012 CVPRW] Gaze estimation from multimodal Kinect data. [PDF]
-Kenneth Alberto Funes Mora and Jean-Marc Odobez
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Feng-etal2016] Local Background Enclosure for RGB-D Salient Object Detection. <a href="https://ieeexplore.ieee.org/document/7780626" rel="nofollow">[PDF]</a>
+<p><em>David Feng, Nick Barnes, Shaodi You, Chris McCarthy</em></p>
 
-[Chen-Ji2011] Probabilistic gaze estimation without active personal calibration. [PDF]
-Jixu Chen and Qiang Ji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jeni-Cohn2016 CVPRW] Person-Independent 3D Gaze Estimation Using Face Frontalization. <a href="https://ieeexplore.ieee.org/document/7789594" rel="nofollow">[PDF]</a>
+<p><em>Laszlo A. Jeni and Jeffrey F. Cohn</em></p>
 
-[Sugano-etal2010] Calibration-free gaze sensing using saliency maps. [PDF]
-Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato
+<h3><a id="user-content-2016-others" class="anchor" aria-hidden="true" href="#2016-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2016 Others</h3>
 
-[Williams-etal2006] Sparse and Semi-supervised Visual Mapping with the S^3GP. [PDF]
-O. Williams and A. Blake and R. Cipolla
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wood-etal2016 ETRA] Learning an appearance-based gaze estimator from one million synthesised images. <a href="https://dl.acm.org/citation.cfm?id=2857492" rel="nofollow">[PDF]</a>
+<p><em>Erroll Wood and Tadas Baltrušaitis and Louis-Philippe Morency and Peter Robinson and Andreas Bulling</em></p>
 
-[Zhu-Ji2005] Eye Gaze Tracking under Natural Head Movements. [PDF]
-Zhiwei Zhu and Qiang Ji
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tonsen-etal2016 ETRA] Labelled pupils in the wild: a dataset for studying pupil detection in unconstrained environments. <a href="https://dl.acm.org/citation.cfm?id=2857520" rel="nofollow">[PDF]</a>
+<p><em>Marc Tonsen and Xucong Zhang and Yusuke Sugano and Andreas Bulling</em></p>
 
-Before 2014 Others
-[Choi-etal2013 URAI] Appearance-based gaze estimation using kinect. [PDF]
-Jinsoo Choi and Byungtae Ahn and Jaesik Parl and In So Kweon
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Ghiass-Arandjelovic2016 IJCAI] Highly accurate gaze estimation using a consumer RGB-depth sensor. <a href="https://dl.acm.org/citation.cfm?id=3061092" rel="nofollow">[PDF]</a>
+<p><em>Reza Shoja Ghiass and Ognjen Arandjelovic</em></p>
 
-[Mora-Odobez2013 ICIP] Person independent 3D gaze estimation from remote RGB-D cameras. [PDF]
-Kenneth Alberto Funes Mora and Jean-Marc Odobez
 
-[Liang-etal2013 ETSA] Appearance-based gaze tracking with spectral clustering and semi-supervised Gaussian process regression. [PDF]
-Ke Liang and Youssef Chahir and Michèle Molina and Charles Tijus and François Jouen
 
-[McMurrough-etal2012 ETRA] An eye tracking dataset for point of gaze detection. [PDF]
-Christopher D. McMurrough and Vangelis Metsis and Jonathan Rich and Fillia Makedon
 
-[Lu-etal2012 ICPR] Head pose-free appearance-based gaze sensing via eye image synthesis. [PDF]
-Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato
 
-[Mohammadi-Raie2012 ICEE] Robust pose-invariant eye gaze estimation using geometrical features of iris and pupil images. [PDF]
-Mohammad Reza Mohammadi and Abolghasem Raie
+<h3><a id="user-content-2015-iccv" class="anchor" aria-hidden="true" href="#2015-iccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2015 ICCV</h3>
 
-[Lu-etal2011 BMVC] A Head Pose-free Approach for Appearance-based Gaze Estimation. [PDF]
-Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wood-etal2015] Rendering of Eyes for Eye-Shape Registration and Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/7410785" rel="nofollow">[PDF]</a>
+<p><em>Erroll Wood and Tadas Baltruaitis and Xucong Zhang and Yusuke Sugano and Peter Robinson and Andreas Bullingo</em></p>
 
-[Cristani-etal2011 BMVC] Social interaction discovery by statistical analysis of F-formations. [PDF]
-Marco Cristani and Loris Bazzani and Giulia Paggetti and Andrea Fossati and Diego Tosato and Alessio Del Bue and Gloria Menegaz and Vittorio Murino
+<h3><a id="user-content-2015-cvpr" class="anchor" aria-hidden="true" href="#2015-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2015 CVPR</h3>
 
-[Hansen-etal2010 ETRA] Homography normalization for robust gaze estimation in uncalibrated setups. [PDF]
-Dan Witzner Hansen and Javier San Agustin and Arantxa Villanueva
 
-[Sewell-Komogortsev2010 HFCS] Real-time eye gaze tracking with an unmodified commodity webcam employing a neural network. [PDF]
-Weston Sewell and Oleg Komogortsev
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhang-etal2015] Appearance-based gaze estimation in the wild. <a href="https://ieeexplore.ieee.org/document/7299081" rel="nofollow">[PDF]</a>
+<p><em>Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling</em></p>
 
-[Yamazoe-etal2008 ETRA] Remote gaze estimation with a single camera based on facial-feature tracking without special calibration actions. [PDF]
-Hirotake Yamazoe and Akira Utsumi and Tomoko Yonezawa and Shinji Abe
 
-[Chen-Ji2008 ICPR] 3D gaze estimation with a single camera without IR illumination. [PDF]
-Jixu Chen and Qiang Ji
+<h3><a id="user-content-2015-others" class="anchor" aria-hidden="true" href="#2015-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2015 Others</h3>
 
-[Hennessey-etal2006 ETRA] A single camera eye-gaze tracking system with free head motion. [PDF]
-Craig Hennessey and Borna Noureddin and Peter Lawrence
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2015 ISKE] A Survey on Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/7383057" rel="nofollow">[PDF]</a>
+<p><em>Xiaomeng Wang and Kang Liu and Xu Qian</em></p>
 
-[Li-etal2006 ETRA] openEyes: a low-cost head-mounted eye-tracking solution. [PDF]
-Dongheng Li and Jason Babcock and Derrick J. Parkhurst
 
-[Zhu-etal2006 ICPR] Nonlinear Eye Gaze Mapping Function Estimation via Support Vector Regression. [PDF]
-Zhiwei Zhu and Qiang Ji and K.P. Bennett
 
-[Hansen-etal2004 ETRA] Gaze typing compared with input by head and hand. [PDF]
-John Paulin Hansen and Kristian Torning and Anders Sewerin Johansen and Kenji Itoh and Hirotaka Aoki
 
-[Tan-etal2002 WACV] Appearance-based eye gaze estimation. [PDF]
-Kar-Han Tan and D.J. Kriegman and N. Ahuja
+<h3><a id="user-content-2014-cvpr" class="anchor" aria-hidden="true" href="#2014-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2014 CVPR</h3>
 
-[Morimoto-etal2002 ICPR] Detecting eye position and gaze from a single camera and 2 light sources. [PDF]
-C.H. Morimoto and A. Amir and M. Flickner
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sugano-etal2014] Learning-by-Synthesis for Appearance-Based 3D Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/6909631" rel="nofollow">[PDF]</a>
+<p><em>Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato</em></p>
 
-[Lankford2000 ETRA] Effective eye-gaze input into Windows. [PDF]
-Chris Lankford
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mora-Odobez2014] Geometric Generative Gaze Estimation (G3E) for Remote RGB-D Cameras. <a href="https://ieeexplore.ieee.org/document/6909625" rel="nofollow">[PDF]</a>
+<p><em>Kenneth Alberto Funes Mora and Jean-Marc Odobez</em></p>
 
-[Xu-etal1998 BMVC] A Novel Approach to Real-time Non-intrusive Gaze Finding. [PDF]
-L.-Q. Xu and D. Machin and P. Sheppard
 
-[Baluja-Pomerleau1994 NIPS] Non-Intrusive Gaze Tracking Using Artificial Neural Networks. [PDF]
-Shumeet Baluja and Dean Pomerleau
+<h3><a id="user-content-2014-others" class="anchor" aria-hidden="true" href="#2014-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2014 Others</h3>
 
-arXiv Papers
-[Xu-etal2018] Interact as You Intend: Intention-Driven Human-Object Interaction Detection. [PDF]
-Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mora-etal2014 ETRA] EYEDIAP: a database for the development and evaluation of gaze estimation algorithms from RGB and RGB-D cameras. <a href="https://dl.acm.org/citation.cfm?id=2578190" rel="nofollow">[PDF]</a>
+<p><em>Kenneth Alberto Funes Mora and Florent Monay and Jean-Marc Odobez</em></p>
 
-[Xu-etal2015] TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking. [PDF]
-Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Jianfeng-Shigang2014 CVPRW] Eye-Model-Based Gaze Estimation by RGB-D Camera. <a href="https://ieeexplore.ieee.org/document/6910042" rel="nofollow">[PDF]</a>
+<p><em>Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling</em></p>
 
-[Gao-etal2014] When Computer Vision Gazes at Cognition. [PDF]
-Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cazzato-etal2014 ICPRW] Pervasive Retail Strategy Using a Low-Cost Free Gaze Estimation System. <a href="https://link.springer.com/chapter/10.1007/978-3-319-12811-5_2" rel="nofollow">[PDF]</a>
+<p><em>Dario Cazzato and Marco Leo and Paolo Spagnolo and Cosimo Distante</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Schneider-etal2014 ICPR] Manifold Alignment for Person Independent Appearance-Based Gaze Estimation. <a href="https://ieeexplore.ieee.org/document/6976920/" rel="nofollow">[PDF]</a>
+<p><em>Timo Schneider and Boris Schauerte and Rainer Stiefelhagen</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kassner-etal2014 UbiComp] Pupil: an open source platform for pervasive eye tracking and mobile gaze-based interaction. <a href="https://dl.acm.org/citation.cfm?id=2641695" rel="nofollow">[PDF]</a>
+<p><em>Moritz Kassner and William Patera and Andreas Bulling</em></p>
+
+
+<h3><a id="user-content-b2014-iccv" class="anchor" aria-hidden="true" href="#b2014-iccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Before 2014 ICCV</h3>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Alnajar-etal2013] Calibration-Free Gaze Estimation Using Human Gaze Patterns. <a href="https://ieeexplore.ieee.org/document/6751126" rel="nofollow">[PDF]</a>
+<p><em>Fares Alnajar and Theo Gevers and Roberto Valenti and Sennay Ghebreab</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2011a] Inferring human gaze from appearance via adaptive linear regression. <a href="https://ieeexplore.ieee.org/document/6126237" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Wang-etal2003] Eye gaze estimation from a single image of one eye. <a href="https://ieeexplore.ieee.org/document/1238328" rel="nofollow">[PDF]</a>
+<p><em>Wang and Sung and Ronda Venkateswarlu</em></p>
+
+<h3><a id="user-content-b2014-eccv" class="anchor" aria-hidden="true" href="#b2014-eccv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Before 2014 ECCV</h3>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sugano-etal2008] An Incremental Learning Method for Unconstrained Gaze Estimation. <a href="https://link.springer.com/chapter/10.1007%2F978-3-540-88690-7_49" rel="nofollow">[PDF]</a>
+<p><em>Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike</em></p>
+
+<h3><a id="user-content-b2014-cvpr" class="anchor" aria-hidden="true" href="#b2014-cvpr"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Before 2014 CVPR</h3>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Baltrusaitis-etal2012] 3D Constrained Local Model for rigid and non-rigid facial tracking. <a href="https://ieeexplore.ieee.org/document/6247980" rel="nofollow">[PDF]</a>
+<p><em>T. Baltrusaitis and P. Robinson and L. Morency</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mora-Odobez2012 CVPRW] Gaze estimation from multimodal Kinect data. <a href="https://ieeexplore.ieee.org/document/6239182" rel="nofollow">[PDF]</a>
+<p><em>Kenneth Alberto Funes Mora and Jean-Marc Odobez</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-Ji2011] Probabilistic gaze estimation without active personal calibration. <a href="https://ieeexplore.ieee.org/document/5995675" rel="nofollow">[PDF]</a>
+<p><em>Jixu Chen and Qiang Ji</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sugano-etal2010] Calibration-free gaze sensing using saliency maps. <a href="https://ieeexplore.ieee.org/document/5539984" rel="nofollow">[PDF]</a>
+<p><em>Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Williams-etal2006] Sparse and Semi-supervised Visual Mapping with the S^3GP. <a href="https://ieeexplore.ieee.org/document/1640764" rel="nofollow">[PDF]</a>
+<p><em>O. Williams and A. Blake and R. Cipolla</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhu-Ji2005] Eye Gaze Tracking under Natural Head Movements. <a href="https://ieeexplore.ieee.org/document/1467364" rel="nofollow">[PDF]</a>
+<p><em>Zhiwei Zhu and Qiang Ji</em></p>
+
+<h3><a id="user-content-b2014-others" class="anchor" aria-hidden="true" href="#b2014-others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Before 2014 Others</h3>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Choi-etal2013 URAI] Appearance-based gaze estimation using kinect. <a href="https://ieeexplore.ieee.org/document/6677362" rel="nofollow">[PDF]</a>
+<p><em>Jinsoo Choi and Byungtae Ahn and Jaesik Parl and In So Kweon</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mora-Odobez2013 ICIP] Person independent 3D gaze estimation from remote RGB-D cameras. <a href="https://ieeexplore.ieee.org/document/6738574" rel="nofollow">[PDF]</a>
+<p><em>Kenneth Alberto Funes Mora and Jean-Marc Odobez</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Liang-etal2013 ETSA] Appearance-based gaze tracking with spectral clustering and semi-supervised Gaussian process regression. <a href="https://ieeexplore.ieee.org/document/6677362" rel="nofollow">[PDF]</a>
+<p><em>Ke Liang and Youssef Chahir and Michèle Molina and Charles Tijus and François Jouen</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[McMurrough-etal2012 ETRA] An eye tracking dataset for point of gaze detection. <a href="https://dl.acm.org/citation.cfm?id=2168622" rel="nofollow">[PDF]</a>
+<p><em>Christopher D. McMurrough and Vangelis Metsis and Jonathan Rich and Fillia Makedon</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2012 ICPR] Head pose-free appearance-based gaze sensing via eye image synthesis. <a href="https://ieeexplore.ieee.org/document/6460306" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Mohammadi-Raie2012 ICEE] Robust pose-invariant eye gaze estimation using geometrical features of iris and pupil images. <a href="https://ieeexplore.ieee.org/document/6292425" rel="nofollow">[PDF]</a>
+<p><em>Mohammad Reza Mohammadi and Abolghasem Raie</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lu-etal2011 BMVC] A Head Pose-free Approach for Appearance-based Gaze Estimation. <a href="http://www.bmva.org/bmvc/2011/proceedings/paper126/index.html" rel="nofollow">[PDF]</a>
+<p><em>Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cristani-etal2011 BMVC] Social interaction discovery by statistical analysis of F-formations. <a href="http://www.bmva.org/bmvc/2011/proceedings/paper23/index.html" rel="nofollow">[PDF]</a>
+<p><em>Marco Cristani and Loris Bazzani and Giulia Paggetti and Andrea Fossati and Diego Tosato and Alessio Del Bue and Gloria Menegaz and Vittorio Murino</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hansen-etal2010 ETRA] Homography normalization for robust gaze estimation in uncalibrated setups. <a href="https://dl.acm.org/citation.cfm?id=1743670" rel="nofollow">[PDF]</a>
+<p><em>Dan Witzner Hansen and Javier San Agustin and Arantxa Villanueva</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Sewell-Komogortsev2010 HFCS] Real-time eye gaze tracking with an unmodified commodity webcam employing a neural network. <a href="https://dl.acm.org/citation.cfm?id=1754048" rel="nofollow">[PDF]</a>
+<p><em>Weston Sewell and Oleg Komogortsev</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Yamazoe-etal2008 ETRA] Remote gaze estimation with a single camera based on facial-feature tracking without special calibration actions. <a href="https://dl.acm.org/citation.cfm?id=1344527" rel="nofollow">[PDF]</a>
+<p><em>Hirotake Yamazoe and Akira Utsumi and Tomoko Yonezawa and Shinji Abe</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Chen-Ji2008 ICPR] 3D gaze estimation with a single camera without IR illumination. <a href="https://ieeexplore.ieee.org/document/4761343" rel="nofollow">[PDF]</a>
+<p><em>Jixu Chen and Qiang Ji</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hennessey-etal2006 ETRA] A single camera eye-gaze tracking system with free head motion. <a href="https://dl.acm.org/citation.cfm?id=1117349" rel="nofollow">[PDF]</a>
+<p><em>Craig Hennessey and Borna Noureddin and Peter Lawrence</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Li-etal2006 ETRA] openEyes: a low-cost head-mounted eye-tracking solution. <a href="https://dl.acm.org/citation.cfm?id=1117350" rel="nofollow">[PDF]</a>
+<p><em>Dongheng Li and Jason Babcock and Derrick J. Parkhurst</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Zhu-etal2006 ICPR] Nonlinear Eye Gaze Mapping Function Estimation via Support Vector Regression. <a href="https://ieeexplore.ieee.org/document/1699089" rel="nofollow">[PDF]</a>
+<p><em>Zhiwei Zhu and Qiang Ji and K.P. Bennett</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Hansen-etal2004 ETRA] Gaze typing compared with input by head and hand. <a href="https://dl.acm.org/citation.cfm?id=968389" rel="nofollow">[PDF]</a>
+<p><em>John Paulin Hansen and Kristian Torning and Anders Sewerin Johansen and Kenji Itoh and Hirotaka Aoki</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tan-etal2002 WACV] Appearance-based eye gaze estimation. <a href="https://dl.acm.org/citation.cfm?id=836853" rel="nofollow">[PDF]</a>
+<p><em>Kar-Han Tan and D.J. Kriegman and N. Ahuja</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Morimoto-etal2002 ICPR] Detecting eye position and gaze from a single camera and 2 light sources. <a href="https://ieeexplore.ieee.org/abstract/document/1047459" rel="nofollow">[PDF]</a>
+<p><em>C.H. Morimoto and A. Amir and M. Flickner</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Lankford2000 ETRA] Effective eye-gaze input into Windows. <a href="https://dl.acm.org/citation.cfm?id=355021" rel="nofollow">[PDF]</a>
+<p><em>Chris Lankford</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xu-etal1998 BMVC] A Novel Approach to Real-time Non-intrusive Gaze Finding. <a href="http://www.bmva.org/bmvc/1998/papers/d058/h058.htm" rel="nofollow">[PDF]</a>
+<p><em>L.-Q. Xu and D. Machin and P. Sheppard</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Baluja-Pomerleau1994 NIPS] Non-Intrusive Gaze Tracking Using Artificial Neural Networks. <a href="https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks" rel="nofollow">[PDF]</a>
+<p><em>Shumeet Baluja and Dean Pomerleau</em></p>
+
+<h2><a id="user-content-arxiv-papers" class="anchor" aria-hidden="true" href="#arxiv-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>arXiv Papers</h2>
+
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xu-etal2018] Interact as You Intend: Intention-Driven Human-Object Interaction Detection. <a href="https://arxiv.org/abs/1808.09796">[PDF]</a>
+<p><em>Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Xu-etal2015] TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking. <a href="https://arxiv.org/abs/1504.06755" rel="nofollow">[PDF]</a>
+<p><em>Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao</em></p>
+
+<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Gao-etal2014] When Computer Vision Gazes at Cognition. <a href="https://arxiv.org/abs/1412.2672" rel="nofollow">[PDF]</a>
+<p><em>Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman</em></p>
+
+<h2><a id="user-content-datasets" class="anchor" aria-hidden="true" href="#datasets"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Datasets</h2>
+
 
 
 <!---If you find the survey useful for your research, please consider citing our work:
