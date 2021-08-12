@@ -26,30 +26,25 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
  - [Gaze Trajectory](#Gaze-Trajectory)
  - [Gaze Redirection](#Gaze-Redirection)
  - [Gaze Zone](#Gaze-Zone)
- - [Looking At Each Other](#LAEO)
- <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))
- - [Multi-modal Architectures](#Multi-modal-Architectures)-->
+ - [Looking At Each Other](#LAEO) 
  - [Uncategorized Papers](#Uncategorized-Papers)
 
+<!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))  [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
-<h2><a id="user-content-Papers" class="anchor" aria-hidden="true" href="#journal-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Journal Papers</h2>
+#### Eye Gaze Estimation
+* [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
+* [Low Cost Gaze Estimation: Knowledge-Based Solutions.](https://doi.org/10.1109/TIP.2019.2946452) - Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva
 
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Che-etal2020 IEEE TIP] How is Gaze Influenced by Image Transformations? Dataset and Model.<a href="https://doi.org/10.1109/TIP.2019.2945857" rel="nofollow">[PDF]</a>
-<p><em>	Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet</em></p>
-
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Martinikorena-etal2020 IEEE TIP] Low Cost Gaze Estimation: Knowledge-Based Solutions. <a href="https://doi.org/10.1109/TIP.2019.2946452" rel="nofollow">[PDF]</a>
-<p><em>Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva</em></p>
-
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cheng-etal2020 IEEE TIP] Gaze Estimation by Exploring Two-Eye Asymmetry. <a href="https://doi.org/10.1109/TIP.2020.2982828" rel="nofollow">[PDF]</a>
+[Cheng-etal2020 IEEE TIP] Gaze Estimation by Exploring Two-Eye Asymmetry. <a href="https://doi.org/10.1109/TIP.2020.2982828" rel="nofollow">[PDF]</a>
 <p><em>	Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato</em></p>
 
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Huang-etal2020 IEEE TIP] Mutual Context Network for Jointly Estimating Egocentric Gaze and Action. <a href="https://doi.org/10.1109/TIP.2020.3007841" rel="nofollow">[PDF]</a>
+[Huang-etal2020 IEEE TIP] Mutual Context Network for Jointly Estimating Egocentric Gaze and Action. <a href="https://doi.org/10.1109/TIP.2020.3007841" rel="nofollow">[PDF]</a>
 <p><em>Yifei Huang, Minjie Cai, Zhenqiang Li, Feng Lu, Yoichi Sato</em></p>
 
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Tamura-etal2018 IEEE Access] Unconstrained and Calibration-Free Gaze Estimation in a Room-Scale Area Using a Monocular Camera. <a href="https://ieeexplore.ieee.org/document/8003269" rel="nofollow">[PDF]</a>
+[Tamura-etal2018 IEEE Access] Unconstrained and Calibration-Free Gaze Estimation in a Room-Scale Area Using a Monocular Camera. <a href="https://ieeexplore.ieee.org/document/8003269" rel="nofollow">[PDF]</a>
 <p><em>Kimimasa Tamura and Ran Choi and Yoshimitsu Aoki</em></p>
 
-<h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Kang-etal2018 IEEE Access] A Robust Extrinsic Calibration Method for Non-Contact Gaze Tracking in the 3-D Space. <a href="https://ieeexplore.ieee.org/document/8447183" rel="nofollow">[PDF]</a>
+[Kang-etal2018 IEEE Access] A Robust Extrinsic Calibration Method for Non-Contact Gaze Tracking in the 3-D Space. <a href="https://ieeexplore.ieee.org/document/8447183" rel="nofollow">[PDF]</a>
 <p><em>Mun-Cheon Kang and Cheol-Hwan Yoo and Kwang-Hyun Uhm and Dae-Hong Lee and Sung-Jea Ko</em></p>
 
 <h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Cazzato-etal2018 PJBR] Real-time gaze estimation via pupil center tracking. <a href="https://www.degruyter.com/view/j/pjbr.2018.9.issue-1/pjbr-2018-0002/pjbr-2018-0002.xml" rel="nofollow">[PDF]</a>
