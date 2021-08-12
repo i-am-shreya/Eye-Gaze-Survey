@@ -21,6 +21,17 @@ A comparison of gaze analysis methods with respect to registration (Reg.), repre
 # Awesome Eye-Gaze: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of papers and datsets for various gaze estimation techniques, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision).
 
+## Contents
+ - [Eye Gaze Estimation](#Eye-Gaze-Estimation)
+ - [Gaze Trajectory](#Gaze-Trajectory)
+ - [Gaze Redirection](#Gaze-Redirection)
+ - [Gaze Zone](#Gaze-Zone)
+ - [Looking At Each Other](#LAEO)
+ <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio))
+ - [Multi-modal Architectures](#Multi-modal-Architectures)-->
+ - [Uncategorized Papers](#Uncategorized-Papers)
+
+
 <h2><a id="user-content-Papers" class="anchor" aria-hidden="true" href="#journal-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Journal Papers</h2>
 
 <h5><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>[Che-etal2020 IEEE TIP] How is Gaze Influenced by Image Transformations? Dataset and Model.<a href="https://doi.org/10.1109/TIP.2019.2945857" rel="nofollow">[PDF]</a>
