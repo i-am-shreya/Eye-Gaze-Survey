@@ -126,46 +126,31 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
   Xucong Zhang, Yusuke Sugano, Andreas Bulling and Otmar Hilliges  
 * [Improving Natural Language Processing Tasks with Human Gaze-Guided Neural Attention.](https://papers.nips.cc/paper/2020/file/460191c72f67e90150a093b4585e7eb4-Paper.pdf)  
   Ekta Sood, Simon Tannert, Philipp Mueller, Andreas Bulling  
-
-   * [Zheng-etal2020 NeurIPS] Self-Learning Transformations for Improving Gaze and Head Redirection.  (https://papers.nips.cc/paper/2020/file/98f2d76d4d9caf408180b5abfa83ae87-Paper.pdf)  
+* [Self-Learning Transformations for Improving Gaze and Head Redirection.](https://papers.nips.cc/paper/2020/file/98f2d76d4d9caf408180b5abfa83ae87-Paper.pdf)  
   Yufeng Zheng, Seonwook Park, Xucong Zhang, Shalini De Mello, Otmar Hilliges  
-
-   * [Zheng-etal2020 NeurIPS] Dynamic Fusion of Eye Movement Data and Verbal Narrations in Knowledge-rich Domains.  (https://papers.nips.cc/paper/2020/file/16837163fee34175358a47e0b51485ff-Paper.pdf)  
+* [Dynamic Fusion of Eye Movement Data and Verbal Narrations in Knowledge-rich Domains.](https://papers.nips.cc/paper/2020/file/16837163fee34175358a47e0b51485ff-Paper.pdf)  
   Ervine Zheng, Qi Yu, Rui Li, Pengcheng Shi, Anne Haake  
-
-   * [Orhan-etal2020 NeurIPS] Self-supervised learning through the eyes of a child.  (https://papers.nips.cc/paper/2020/file/7183145a2a3e0ce2b68cd3735186b1d5-Paper.pdf)  
+* [Self-supervised learning through the eyes of a child.](https://papers.nips.cc/paper/2020/file/7183145a2a3e0ce2b68cd3735186b1d5-Paper.pdf)  
   Emin Orhan, Vaibhav Gupta, Brenden M. Lake  
-   * [Cheng-etal2020 AAAI] A Coarse-to-Fine Adaptive Network for Appearance-Based Gaze Estimation.  (https://aaai.org/ojs/index.php/AAAI/article/view/6636/6490)  
+* [A Coarse-to-Fine Adaptive Network for Appearance-Based Gaze Estimation.](https://aaai.org/ojs/index.php/AAAI/article/view/6636/6490)  
   Yihua Cheng, Shiyao Huang, Fei Wang, Chen Qian, Feng Lu  
-
-
-
-   * [Fan-etal2019] Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning.   (http://openaccess.thecvf.com/content_ICCV_2019/papers/Fan_Understanding_Human_Gaze_Communication_by_Spatio-Temporal_Graph_Reasoning_ICCV_2019_paper.pdf)  
+* [Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Fan_Understanding_Human_Gaze_Communication_by_Spatio-Temporal_Graph_Reasoning_ICCV_2019_paper.pdf)  
   Lifeng Fan, Wenguan Wang, Siyuan Huang, Xinyu Tang, Song-Chun Zhu   
-
-   * [Kellnhofer-etal2019] Gaze360: Physically Unconstrained Gaze Estimation in the Wild.   (http://openaccess.thecvf.com/content_ICCV_2019/papers/Kellnhofer_Gaze360_Physically_Unconstrained_Gaze_Estimation_in_the_Wild_ICCV_2019_paper.pdf)  
-  Petr Kellnhofer, Adria Recasens, Simon Stent, Wojciech Matusik, Antonio Torralba   
-
-   * [He-etal2019] Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks.   (http://openaccess.thecvf.com/content_ICCV_2019/papers/He_Photo-Realistic_Monocular_Gaze_Redirection_Using_Generative_Adversarial_Networks_ICCV_2019_paper.pdf)  
+* [Gaze360: Physically Unconstrained Gaze Estimation in the Wild.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Kellnhofer_Gaze360_Physically_Unconstrained_Gaze_Estimation_in_the_Wild_ICCV_2019_paper.pdf)  
+  Petr Kellnhofer, Adria Recasens, Simon Stent, Wojciech Matusik, Antonio Torralba
+* [Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks.](http://openaccess.thecvf.com/content_ICCV_2019/papers/He_Photo-Realistic_Monocular_Gaze_Redirection_Using_Generative_Adversarial_Networks_ICCV_2019_paper.pdf)  
   Zhe He, Adrian Spurr, Xucong Zhang, Otmar Hilliges   
-
-   * [Park-etal2019] Few-Shot Adaptive Gaze Estimation.   (http://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Few-Shot_Adaptive_Gaze_Estimation_ICCV_2019_paper.pdf)  
+* [Few-Shot Adaptive Gaze Estimation.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Few-Shot_Adaptive_Gaze_Estimation_ICCV_2019_paper.pdf)  
   Seonwook Park, Shalini De Mello, Pavlo Molchanov, Umar Iqbal, Otmar Hilliges, Jan Kautz   
-
-   * [Xiong-etal2019] Mixed Effects Neural Networks (MeNets) With Applications to Gaze Estimation.   ()  
+* [Mixed Effects Neural Networks (MeNets) With Applications to Gaze Estimation.]()  
   Yunyang Xiong, Hyunwoo J. Kim, Vikas Singh  
-
-   * [Yu-etal2019] Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis.   (http://www.idiap.ch/~odobez/publications/YuLiuOdobez-CVPR2019.pdf)  
+* [Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis.](http://www.idiap.ch/~odobez/publications/YuLiuOdobez-CVPR2019.pdf)  
   Yu Yu, Gang Liu, Jean-Marc Odobez  
-
-   * [Wang-etal2019] Neuro-Inspired Eye Tracking With Eye Movement Dynamics.   (http://homepages.rpi.edu/~wangk10/papers/wang2019neural.pdf)  
+* [Neuro-Inspired Eye Tracking With Eye Movement Dynamics.](http://homepages.rpi.edu/~wangk10/papers/wang2019neural.pdf)  
   Kang Wang, Hui Su, Qiang Ji  
-
-   * [Wang-etal2019] Generalizing Eye Tracking With Bayesian Adversarial Learning.   (https://www.semanticscholar.org/paper/Generalizing-Eye-Tracking-with-Bayesian-Adversarial-Wang-Zhao/77b9b6786699a236aad0c3fa3734730ece4a780f)  
+* [Generalizing Eye Tracking With Bayesian Adversarial Learning.](https://www.semanticscholar.org/paper/Generalizing-Eye-Tracking-with-Bayesian-Adversarial-Wang-Zhao/77b9b6786699a236aad0c3fa3734730ece4a780f)  
   Kang Wang, Rui Zhao, Hui Su, Qiang Ji  
-
-
-   * [Hickson-etal2019 WACV] Eyemotion: Classifying Facial Expressions in VR Using Eye-Tracking Cameras.   (https://doi.org/10.1109/WACV.2019.00178)  
+* [Eyemotion: Classifying Facial Expressions in VR Using Eye-Tracking Cameras.](https://doi.org/10.1109/WACV.2019.00178)  
   Steven Hickson, Nick Dufour, Avneesh Sud, Vivek Kwatra, Irfan A. Essa  
 
    * [Lian-etal2019 AAAI] RGBD Based Gaze Estimation via Multi-Task CNN.  (https://doi.org/10.1609/aaai.v33i01.33012488)  
@@ -612,42 +597,11 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
       * [Cristani-etal2011 BMVC] Social interaction discovery by statistical analysis of F-formations.    (http://www.bmva.org/bmvc/2011/proceedings/paper23/index.html)
    Marco Cristani and Loris Bazzani and Giulia Paggetti and Andrea Fossati and Diego Tosato and Alessio Del Bue and Gloria Menegaz and Vittorio Murino   
 
-      * [Hansen-etal2010 ETRA] Homography normalization for robust gaze estimation in uncalibrated setups.    (https://dl.acm.org/citation.cfm?id=1743670)
-   Dan Witzner Hansen and Javier San Agustin and Arantxa Villanueva   
-
-      * [Sewell-Komogortsev2010 HFCS] Real-time eye gaze tracking with an unmodified commodity webcam employing a neural network.    (https://dl.acm.org/citation.cfm?id=1754048)
-   Weston Sewell and Oleg Komogortsev   
-
-      * [Yamazoe-etal2008 ETRA] Remote gaze estimation with a single camera based on facial-feature tracking without special calibration actions.    (https://dl.acm.org/citation.cfm?id=1344527)
-   Hirotake Yamazoe and Akira Utsumi and Tomoko Yonezawa and Shinji Abe   
-
-      * [Chen-Ji2008 ICPR] 3D gaze estimation with a single camera without IR illumination.    (https://ieeexplore.ieee.org/document/4761343)
-   Jixu Chen and Qiang Ji   
-
-      * [Hennessey-etal2006 ETRA] A single camera eye-gaze tracking system with free head motion.    (https://dl.acm.org/citation.cfm?id=1117349)
-   Craig Hennessey and Borna Noureddin and Peter Lawrence   
-
-      * [Li-etal2006 ETRA] openEyes: a low-cost head-mounted eye-tracking solution.    (https://dl.acm.org/citation.cfm?id=1117350)
-   Dongheng Li and Jason Babcock and Derrick J. Parkhurst   
-
-      * [Zhu-etal2006 ICPR] Nonlinear Eye Gaze Mapping Function Estimation via Support Vector Regression.    (https://ieeexplore.ieee.org/document/1699089)
-   Zhiwei Zhu and Qiang Ji and K.P. Bennett   
-
-      * [Hansen-etal2004 ETRA] Gaze typing compared with input by head and hand.    (https://dl.acm.org/citation.cfm?id=968389)
-   John Paulin Hansen and Kristian Torning and Anders Sewerin Johansen and Kenji Itoh and Hirotaka Aoki   
-
-      * [Tan-etal2002 WACV] Appearance-based eye gaze estimation.    (https://dl.acm.org/citation.cfm?id=836853)
-   Kar-Han Tan and D.J. Kriegman and N. Ahuja   
-
-      * [Morimoto-etal2002 ICPR] Detecting eye position and gaze from a single camera and 2 light sources.    (https://ieeexplore.ieee.org/abstract/document/1047459)
-   C.H. Morimoto and A. Amir and M. Flickner   
-
-      * [Lankford2000 ETRA] Effective eye-gaze input into Windows.    (https://dl.acm.org/citation.cfm?id=355021)
+* [Effective eye-gaze input into Windows.](https://dl.acm.org/citation.cfm?id=355021)
    Chris Lankford   
 
 * [A Novel Approach to Real-time Non-intrusive Gaze Finding.](http://www.bmva.org/bmvc/1998/papers/d058/h058.htm)
-   L.-Q. Xu and D. Machin and P. Sheppard   
-
+   L.-Q. Xu and D. Machin and P. Sheppard  
 * [Non-Intrusive Gaze Tracking Using Artificial Neural Networks.](https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks)
    Shumeet Baluja and Dean Pomerleau   
 * [Interact as You Intend: Intention-Driven Human-Object Interaction Detection.](https://arxiv.org/abs/1808.09796)
