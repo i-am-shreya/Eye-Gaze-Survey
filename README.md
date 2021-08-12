@@ -64,46 +64,41 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
   Peter Corcoran and Florin Nanu and Stefan Petrescu and Petronel Bigioi  
 * [Combining Head Pose and Eye Location Information for Gaze Estimation](https://ieeexplore.ieee.org/document/5959981)  
   R. Valenti and N. Sebe and T. Gevers  
-* [Gaze tracking system at a distance for controlling IPTV. ](https://ieeexplore.ieee.org/document/5681143)  
+* [Gaze tracking system at a distance for controlling IPTV.](https://ieeexplore.ieee.org/document/5681143)  
   Hyeon Lee and Duc Luong and Chul Cho and Eui Lee and Kang Park  
-* [Dual Attention Guided Gaze Target Detection in the Wild(https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)  
+* [Dual Attention Guided Gaze Target Detection in the Wild](https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)  
   Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai  
 * [Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf)  
   Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao  
-* [Kothari-etal2021] Weakly-Supervised Physically Unconstrained Gaze Estimation  (https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf)  
+* [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf)  
   Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz  
-   * [Liu-etal2021] Goal-Oriented Gaze Estimation for Zero-Shot Learning  (https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf)  
+* [Goal-Oriented Gaze Estimation for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf)  
   Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada  
-
-   * [Meng-etal2021] Connecting What To Say With Where To Look by Modeling Human Attention Traces  (https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf)  
+* [Connecting What To Say With Where To Look by Modeling Human Attention Traces](https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf)  
   Zihang Meng, Licheng Yu, Ning Zhang, Tamara L. Berg, Babak Damavandi, Vikas Singh, Amy Bearman  
-
-   * [Tomas-etal2021 CVPRW] GOO: A Dataset for Gaze Object Prediction in Retail Environments  (https://arxiv.org/pdf/2105.10793)  
+* [GOO: A Dataset for Gaze Object Prediction in Retail Environments](https://arxiv.org/pdf/2105.10793)  
   	Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto  
-   * [Poulopoulos-etal2021 CVPRW] PupilTAN: A Few-Shot Adversarial Pupil Localizer  (https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf)  
+* [PupilTAN: A Few-Shot Adversarial Pupil Localizer](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf)  
   	Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos  
-   * [Murthy-etal2021 CVPRW] Appearance-Based Gaze Estimation Using Attention and Difference Mechanism  (https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/D_Appearance-Based_Gaze_Estimation_Using_Attention_and_Difference_Mechanism_CVPRW_2021_paper.pdf)  
+* [Appearance-Based Gaze Estimation Using Attention and Difference Mechanism](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/D_Appearance-Based_Gaze_Estimation_Using_Attention_and_Difference_Mechanism_CVPRW_2021_paper.pdf)  
   	Murthy L R D, Pradipta Biswas  
-   * [Siegfried-etal2021 CVPRW] Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets  (https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Siegfried_Visual_Focus_of_Attention_Estimation_in_3D_Scene_With_an_CVPRW_2021_paper.pdf)  
+* [Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Siegfried_Visual_Focus_of_Attention_Estimation_in_3D_Scene_With_an_CVPRW_2021_paper.pdf)  
   	Remy Siegfried, Jean-Marc Odobez  
-
-
-
-   * [Cheng-etal2021 arXiv] Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark  (https://arxiv.org/pdf/2104.12668)  
+* [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/pdf/2104.12668)  
   	Yihua Cheng, Haofei Wang, Yiwei Bao, Feng Lu  
-   * [Cheng-etal2021 arXiv] PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation  (https://arxiv.org/pdf/2103.13173)  
+* [PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation](https://arxiv.org/pdf/2103.13173)  
   	Yihua Cheng, Yiwei Bao, Feng Lu  
-   * [Cai-etal2021 arXiv] Gaze Estimation with an Ensemble of Four Architectures  (https://arxiv.org/pdf/2107.01980)  
+* [Gaze Estimation with an Ensemble of Four Architectures](https://arxiv.org/pdf/2107.01980)  
   	Xin Cai, Boyu Chen, Jiabei Zeng, Jiajun Zhang, Yunjia Sun, Xiao Wang, Zhilong Ji, Xiao Liu, Xilin Chen, Shiguang Shan  
-   * [Bao-etal2021 arXiv] The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation  (https://arxiv.org/pdf/2107.01980)  
+* [The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation](https://arxiv.org/pdf/2107.01980)  
   	Jun Bao, Buyu Liu, Jun Yu  
-   * [Ji-etal2021 arXiv] Bayesian Eye Tracking  (https://arxiv.org/pdf/2106.13387)  
+* [Bayesian Eye Tracking](https://arxiv.org/pdf/2106.13387)  
   	Qiang Ji, Kang Wang  
-   * [Jindal-etal2021 arXiv] CUDA-GR: Controllable Unsupervised Domain Adaptation for Gaze Redirection  (https://arxiv.org/pdf/2106.10852)  
+* [CUDA-GR: Controllable Unsupervised Domain Adaptation for Gaze Redirection](https://arxiv.org/pdf/2106.10852)  
   	Swati Jindal, Xin Eric Wang  
-   * [Yu-etal2021 arXiv] Glance-and-Gaze Vision Transformer  (https://arxiv.org/pdf/2106.02277)  
+* [Glance-and-Gaze Vision Transformer](https://arxiv.org/pdf/2106.02277)  
   	Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille, Wei Shen  
-   * [Cheng-etal2021 arXiv] Gaze Estimation using Transformer  (https://arxiv.org/pdf/2105.14424)  
+* [Gaze Estimation using Transformer](https://arxiv.org/pdf/2105.14424)  
   	Yihua Cheng, Feng Lu  
 
 
@@ -668,12 +663,12 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
       * [Lankford2000 ETRA] Effective eye-gaze input into Windows.    (https://dl.acm.org/citation.cfm?id=355021)
    Chris Lankford   
 
-      * [Xu-etal1998 BMVC] A Novel Approach to Real-time Non-intrusive Gaze Finding.    (http://www.bmva.org/bmvc/1998/papers/d058/h058.htm)
+* [A Novel Approach to Real-time Non-intrusive Gaze Finding.](http://www.bmva.org/bmvc/1998/papers/d058/h058.htm)
    L.-Q. Xu and D. Machin and P. Sheppard   
 
-      * [Baluja-Pomerleau1994 NIPS] Non-Intrusive Gaze Tracking Using Artificial Neural Networks.    (https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks)
+* [Non-Intrusive Gaze Tracking Using Artificial Neural Networks.](https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks)
    Shumeet Baluja and Dean Pomerleau   
- * [Xu-etal2018] Interact as You Intend: Intention-Driven Human-Object Interaction Detection.(https://arxiv.org/abs/1808.09796)
+* [Interact as You Intend: Intention-Driven Human-Object Interaction Detection.](https://arxiv.org/abs/1808.09796)
    Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao   
 * [TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.](https://arxiv.org/abs/1504.06755)
    Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao   
