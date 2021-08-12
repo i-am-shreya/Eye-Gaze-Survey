@@ -66,11 +66,11 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
   R. Valenti and N. Sebe and T. Gevers  
 * [Gaze tracking system at a distance for controlling IPTV. ](https://ieeexplore.ieee.org/document/5681143)  
   Hyeon Lee and Duc Luong and Chul Cho and Eui Lee and Kang Park  
- * [Fang-etal2021] Dual Attention Guided Gaze Target Detection in the Wild  (https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)  
+* [Dual Attention Guided Gaze Target Detection in the Wild(https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)  
   Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai  
-   * [Zhong-etal2021] Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection  (https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf)  
+* [Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf)  
   Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao  
-   * [Kothari-etal2021] Weakly-Supervised Physically Unconstrained Gaze Estimation  (https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf)  
+* [Kothari-etal2021] Weakly-Supervised Physically Unconstrained Gaze Estimation  (https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf)  
   Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz  
    * [Liu-etal2021] Goal-Oriented Gaze Estimation for Zero-Shot Learning  (https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf)  
   Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada  
