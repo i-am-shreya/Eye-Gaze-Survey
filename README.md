@@ -36,37 +36,28 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * [Low Cost Gaze Estimation: Knowledge-Based Solutions.](https://doi.org/10.1109/TIP.2019.2946452) - Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva (2020 IEEE TIP)
 * [Gaze Estimation by Exploring Two-Eye Asymmetry.](https://doi.org/10.1109/TIP.2020.2982828)- Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato (2020 IEEE TIP)
 * [MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation.](https://ieeexplore.ieee.org/document/8122058) - Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling (2017 IEEE TPAMI) 
-* [Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery.](https://ieeexplore.ieee.org/document/7833091) - Feng Lu and Xiaowu Chen and Yoichi Sato 
+* [Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery.](https://ieeexplore.ieee.org/document/7833091) - Feng Lu and Xiaowu Chen and Yoichi Sato
 * [InvisibleEye: Mobile Eye Tracking Using Multiple Low-Resolution Cameras and Learning-Based Gaze Estimation.](https://dl.acm.org/citation.cfm?id=3130971)  
-  Marc Tonsen and Julian Steil and Yusuke Sugano and Andreas Bulling
-* [A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study.] (https://www.sciencedirect.com/science/article/pii/S0167865515003669  )  
-  Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante  
-
-   [Cristina-Camilleri2016 CVIU] Model-based head pose-free gaze estimation for assistive communication.   (https://www.sciencedirect.com/science/article/pii/S1077314216000667  )  
+  Marc Tonsen and Julian Steil and Yusuke Sugano and Andreas Bulling 
+* [A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study.](https://www.sciencedirect.com/science/article/pii/S0167865515003669)  
+  Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante
+* [Model-based head pose-free gaze estimation for assistive communication.](https://www.sciencedirect.com/science/article/pii/S1077314216000667  )  
   Stefania Cristina and Kenneth P. Camilleri  
-
-   [George-Routray2016 IET CV] Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images.   (http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316  )  
+* [Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images.](http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316)  
   Anjith George and Aurobinda Routray  
-
-   [Mora-Odobez2015 VisRes] Gaze Estimation in the 3D Space Using RGB-D Sensors.   (http://publications.idiap.ch/index.php/publications/show/3228  )  
+* [Gaze Estimation in the 3D Space Using RGB-D Sensors.](http://publications.idiap.ch/index.php/publications/show/3228) 
   Kenneth A. Funes-Mora and Jean-Marc Odobez  
-
-   [Parks-etal2015 VisRes] Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes.   (https://www.sciencedirect.com/science/article/pii/S0042698914002739  )  
+* [Parks-etal2015 VisRes] Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes.   (https://www.sciencedirect.com/science/article/pii/S0042698914002739  )  
   Daniel Parks and Ali Borji and Laurent Itti  
-
-   [Sugano-etal2015 THMS] Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations.   (https://ieeexplore.ieee.org/document/7050250  )  
+* [Sugano-etal2015 THMS] Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations.   (https://ieeexplore.ieee.org/document/7050250  )  
   Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike  
-
-   [Fridman-etal2015 MIS] Driver Gaze Region Estimation Without Using Eye Movement.   (https://ieeexplore.ieee.org/document/7478592  )  
+* [Fridman-etal2015 MIS] Driver Gaze Region Estimation Without Using Eye Movement.   (https://ieeexplore.ieee.org/document/7478592  )  
   Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer  
-
-   [Gwon-etal2014 Sensors] Gaze Tracking System for User Wearing Glasses.   (https://www.mdpi.com/1424-8220/14/2/2110  )  
+* [Gwon-etal2014 Sensors] Gaze Tracking System for User Wearing Glasses.   (https://www.mdpi.com/1424-8220/14/2/2110  )  
   Su Gwon and Chul Cho and Hyeon Lee and Won Lee and Kang Park  
-
-   [Lu-etal2014 TPAMI] Adaptive Linear Regression for Appearance-Based Gaze Estimation.   (https://ieeexplore.ieee.org/document/6777326  )  
+* [Lu-etal2014 TPAMI] Adaptive Linear Regression for Appearance-Based Gaze Estimation.   (https://ieeexplore.ieee.org/document/6777326  )  
   Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato  
-
-   [Lu-etal2014a IVC] Learning gaze biases with head motion for head pose-free gaze estimation.   (https://www.sciencedirect.com/science/article/pii/S0262885614000171  )  
+* [Lu-etal2014a IVC] Learning gaze biases with head motion for head pose-free gaze estimation.   (https://www.sciencedirect.com/science/article/pii/S0262885614000171  )  
   Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato  
 
    [Sun-etal2014 TMM] Real-Time Gaze Estimation with Online Calibration.   (https://ieeexplore.ieee.org/document/6916495  )  
@@ -769,16 +760,12 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
       [Baluja-Pomerleau1994 NIPS] Non-Intrusive Gaze Tracking Using Artificial Neural Networks.    (https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks   )
    Shumeet Baluja and Dean Pomerleau   
 
-<h2><a id="user-content-arxiv-papers" class="anchor" aria-hidden="true" href="#arxiv-papers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.0   arXiv Papers</h2>
 
-
-      [Xu-etal2018] Interact as You Intend: Intention-Driven Human-Object Interaction Detection.    (https://arxiv.org/abs/1808.09796">[PDF]</a>
+      [Xu-etal2018] Interact as You Intend: Intention-Driven Human-Object Interaction Detection.    (https://arxiv.org/abs/1808.09796)
    Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao   
-
-      [Xu-etal2015] TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.    (https://arxiv.org/abs/1504.06755   )
+* [TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.](https://arxiv.org/abs/1504.06755)
    Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao   
-
-      [Gao-etal2014] When Computer Vision Gazes at Cognition.    (https://arxiv.org/abs/1412.2672   )
+* [When Computer Vision Gazes at Cognition.](https://arxiv.org/abs/1412.2672)
    Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman   
 
 
