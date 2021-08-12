@@ -99,50 +99,32 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * [Glance-and-Gaze Vision Transformer](https://arxiv.org/pdf/2106.02277)  
   	Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille, Wei Shen  
 * [Gaze Estimation using Transformer](https://arxiv.org/pdf/2105.14424)  
-  	Yihua Cheng, Feng Lu  
-
-
-
-
-   * [Zhang-etal2020] ETH-XGaze: A Large Scale Dataset for Gaze Estimation under Extreme Head Pose and Gaze Variation.  (https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500358.pdf)  
+  	Yihua Cheng, Feng Lu
+* [ETH-XGaze: A Large Scale Dataset for Gaze Estimation under Extreme Head Pose and Gaze Variation.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500358.pdf)  
   Xucong Zhang, Seonwook Park, Thabo Beeler, Derek Bradley, Siyu Tang , Otmar Hilliges   
-
-   * [Park-etal2020] Towards End-to-end Video-based Eye-Tracking.  (https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570732.pdf)  
-  Seonwook Park, Emre Aksan, Xucong Zhang, Otmar Hilliges   
-
-
-   * [Lee-etal2020] Deep Learning-based Pupil Center Detection for Fast and Accurate Eye Tracking System.  (https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640035.pdf)  
+* [Towards End-to-end Video-based Eye-Tracking.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570732.pdf)  
+  Seonwook Park, Emre Aksan, Xucong Zhang, Otmar Hilliges
+* [Deep Learning-based Pupil Center Detection for Fast and Accurate Eye Tracking System.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640035.pdf)  
   Kang Il Lee, Jung Ho Jeon, Byung Cheol Song   
-
-   * [Yu-etal2020] Unsupervised Representation Learning for Gaze Estimation.  (https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Unsupervised_Representation_Learning_for_Gaze_Estimation_CVPR_2020_paper.pdf)  
+* [Unsupervised Representation Learning for Gaze Estimation.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yu_Unsupervised_Representation_Learning_for_Gaze_Estimation_CVPR_2020_paper.pdf)  
   Yu Yu, Jean-Marc Odobez   
-
-   * [Pal-etal2020] "Looking at the Right Stuff" - Guided Semantic-Gaze for Autonomous Driving.  (https://openaccess.thecvf.com/content_CVPR_2020/papers/Pal_Looking_at_the_Right_Stuff_-_Guided_Semantic-Gaze_for_Autonomous_CVPR_2020_paper.pdf)  
+* ["Looking at the Right Stuff" - Guided Semantic-Gaze for Autonomous Driving.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pal_Looking_at_the_Right_Stuff_-_Guided_Semantic-Gaze_for_Autonomous_CVPR_2020_paper.pdf)  
   Anwesan Pal, Sayan Mondal, Henrik I. Christensen   
-
-
-   * [Fang-etal2020 ICIP] Identifying Children with Autism Spectrum Disorder Based on Gaze-Following.  (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190831)  
+* [Identifying Children with Autism Spectrum Disorder Based on Gaze-Following.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190831)  
   	Yi Fang, Huiyu Duan, Fangyu Shi, Xiongkuo Min, Guangtao Zhai  
-
-   * [Guo-etal2020 ACCV] Domain Adaptation Gaze Estimation by Embedding with Prediction Consistency.  (https://openaccess.thecvf.com/content/ACCV2020/papers/Guo_Domain_Adaptation_Gaze_Estimation_by_Embedding_with_Prediction_Consistency_ACCV_2020_paper.pdf)  
+* [Domain Adaptation Gaze Estimation by Embedding with Prediction Consistency.](https://openaccess.thecvf.com/content/ACCV2020/papers/Guo_Domain_Adaptation_Gaze_Estimation_by_Embedding_with_Prediction_Consistency_ACCV_2020_paper.pdf)  
   Zidong Guo, Zejian Yuan, Chong Zhang, Wanchao Chi, Yonggen Ling, Shenghao Zhang   
-
-   * [Chen-etal2020 WACV] Offset Calibration for Appearance-Based Gaze Estimation via Gaze Decomposition.  (https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Offset_Calibration_for_Appearance-Based_Gaze_Estimation_via_Gaze_Decomposition_WACV_2020_paper.pdf)  
+* [Offset Calibration for Appearance-Based Gaze Estimation via Gaze Decomposition.](https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Offset_Calibration_for_Appearance-Based_Gaze_Estimation_via_Gaze_Decomposition_WACV_2020_paper.pdf)  
   Zhaokang Chen, Bertram Shi   
-
-   * [Dias-etal2020 WACV] Gaze Estimation for Assisted Living Environments.  (https://openaccess.thecvf.com/content_WACV_2020/papers/Dias_Gaze_Estimation_for_Assisted_Living_Environments_WACV_2020_paper.pdf)  
+* [Gaze Estimation for Assisted Living Environments.](https://openaccess.thecvf.com/content_WACV_2020/papers/Dias_Gaze_Estimation_for_Assisted_Living_Environments_WACV_2020_paper.pdf)  
   Philipe Ambrozio Dias, Damiano Malafronte, Henry Medeiros, Francesca Odone   
-
-   * [Kaur-etal2020 WACV] EyeGAN: Gaze-Preserving, Mask-Mediated Eye Image Synthesis.  (https://openaccess.thecvf.com/content_WACV_2020/papers/Kaur_EyeGAN_Gaze-Preserving_Mask-Mediated_Eye_Image_Synthesis_WACV_2020_paper.pdf)  
+* [EyeGAN: Gaze-Preserving, Mask-Mediated Eye Image Synthesis.](https://openaccess.thecvf.com/content_WACV_2020/papers/Kaur_EyeGAN_Gaze-Preserving_Mask-Mediated_Eye_Image_Synthesis_WACV_2020_paper.pdf)  
   Harsimran Kaur, Roberto Manduchi  
-
-   * [Wang-etal2020 WACV] Learning to Detect Head Movement in Unconstrained Remote Gaze Estimation in the Wild.  (https://openaccess.thecvf.com/content_WACV_2020/papers/Wang_Learning_to_Detect_Head_Movement_in_Unconstrained_Remote_Gaze_Estimation_WACV_2020_paper.pdf)  
+* [Learning to Detect Head Movement in Unconstrained Remote Gaze Estimation in the Wild.](https://openaccess.thecvf.com/content_WACV_2020/papers/Wang_Learning_to_Detect_Head_Movement_in_Unconstrained_Remote_Gaze_Estimation_WACV_2020_paper.pdf)  
   Zhecan Wang, Jian Zhao, Cheng Lu, Fan Yang, Han Huang, lianji li, Yandong Guo  
-
-   * [Zhang-etal2020 BMVC] Learning-based Region Selection for End-to-End Gaze Estimation.  (https://www.bmvc2020-conference.com/assets/papers/0086.pdf)  
+* [Learning-based Region Selection for End-to-End Gaze Estimation.](https://www.bmvc2020-conference.com/assets/papers/0086.pdf)  
   Xucong Zhang, Yusuke Sugano, Andreas Bulling and Otmar Hilliges  
-
-   * [Sood-etal2020 NeurIPS] Improving Natural Language Processing Tasks with Human Gaze-Guided Neural Attention.  (https://papers.nips.cc/paper/2020/file/460191c72f67e90150a093b4585e7eb4-Paper.pdf)  
+* [Improving Natural Language Processing Tasks with Human Gaze-Guided Neural Attention.](https://papers.nips.cc/paper/2020/file/460191c72f67e90150a093b4585e7eb4-Paper.pdf)  
   Ekta Sood, Simon Tannert, Philipp Mueller, Andreas Bulling  
 
    * [Zheng-etal2020 NeurIPS] Self-Learning Transformations for Improving Gaze and Head Redirection.  (https://papers.nips.cc/paper/2020/file/98f2d76d4d9caf408180b5abfa83ae87-Paper.pdf)  
