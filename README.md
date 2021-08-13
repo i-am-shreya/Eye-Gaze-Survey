@@ -43,8 +43,6 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation
-
-<!----* [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
 * [Low Cost Gaze Estimation: Knowledge-Based Solutions.](https://doi.org/10.1109/TIP.2019.2946452) - Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva (2020 IEEE TIP)
 * [Gaze Estimation by Exploring Two-Eye Asymmetry.](https://doi.org/10.1109/TIP.2020.2982828)- Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato (2020 IEEE TIP)
 * [MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation.](https://ieeexplore.ieee.org/document/8122058) - Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling (2017 IEEE TPAMI) 
@@ -54,6 +52,20 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
   Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante
 * [Model-based head pose-free gaze estimation for assistive communication.](https://www.sciencedirect.com/science/article/pii/S1077314216000667)  
   Stefania Cristina and Kenneth P. Camilleri  
+
+#### Gaze Trajectory
+
+#### Gaze Redirection
+
+#### Gaze Zone
+
+#### Looking At Each Other
+
+#### Uncategorized Papers
+* [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
+
+<!----
+
 * [Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images.](http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316)  
   Anjith George and Aurobinda Routray  
 * [Gaze Estimation in the 3D Space Using RGB-D Sensors.](http://publications.idiap.ch/index.php/publications/show/3228) 
