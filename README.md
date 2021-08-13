@@ -33,46 +33,62 @@ A comparison of gaze analysis methods with respect to registration (Reg.), repre
 A curated list of papers and datsets for various gaze estimation techniques, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision).
 
 ## Contents
- - [Eye Gaze Estimation](#Eye-Gaze-Estimation)
+ - [Eye Gaze Estimation/Tracking](#Eye-Gaze-Estimation)
  - [Gaze Trajectory](#Gaze-Trajectory)
  - [Gaze Redirection](#Gaze-Redirection)
- - [Gaze Zone](#Gaze-Zone)
+ - [Gaze Zone + Driver Gaze](#Gaze-Zone)
  - [Looking At Each Other](#LAEO) 
+ - [Gaze and Attention](#Gaze-and-Attention)
+ - [Gaze and Interaction](#Gaze-and-Interaction)
  - [Uncategorized Papers](#Uncategorized-Papers)
 
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
-#### Eye Gaze Estimation
+#### Eye Gaze Estimation/Tracking 
+* [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf) - Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz  
+* [Goal-Oriented Gaze Estimation for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf) - Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada  
+* [GOO: A Dataset for Gaze Object Prediction in Retail Environments](https://arxiv.org/pdf/2105.10793) - Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto  
+* [PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation](https://arxiv.org/pdf/2103.13173)  - Yihua Cheng, Yiwei Bao, Feng Lu  
+* [Gaze Estimation with an Ensemble of Four Architectures](https://arxiv.org/pdf/2107.01980) - Xin Cai, Boyu Chen, Jiabei Zeng, Jiajun Zhang, Yunjia Sun, Xiao Wang, Zhilong Ji, Xiao Liu, Xilin Chen, Shiguang Shan  
+* [The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation](https://arxiv.org/pdf/2107.01980) - Jun Bao, Buyu Liu, Jun Yu  
+* [Bayesian Eye Tracking](https://arxiv.org/pdf/2106.13387) - Qiang Ji, Kang Wang  
 * [Low Cost Gaze Estimation: Knowledge-Based Solutions.](https://doi.org/10.1109/TIP.2019.2946452) - Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva (2020 IEEE TIP)
 * [Gaze Estimation by Exploring Two-Eye Asymmetry.](https://doi.org/10.1109/TIP.2020.2982828)- Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato (2020 IEEE TIP)
 * [MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation.](https://ieeexplore.ieee.org/document/8122058) - Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling (2017 IEEE TPAMI) 
-* [Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery.](https://ieeexplore.ieee.org/document/7833091) - Feng Lu and Xiaowu Chen and Yoichi Sato
 * [InvisibleEye: Mobile Eye Tracking Using Multiple Low-Resolution Cameras and Learning-Based Gaze Estimation.](https://dl.acm.org/citation.cfm?id=3130971) -  Marc Tonsen and Julian Steil and Yusuke Sugano and Andreas Bulling 
-* [A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study.](https://www.sciencedirect.com/science/article/pii/S0167865515003669)  
-  Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante
-* [Model-based head pose-free gaze estimation for assistive communication.](https://www.sciencedirect.com/science/article/pii/S1077314216000667)  
-  Stefania Cristina and Kenneth P. Camilleri  
+* [A low-cost and calibration-free gaze estimator for soft biometrics: An explorative study.](https://www.sciencedirect.com/science/article/pii/S0167865515003669)  - Dario Cazzato and Andrea Evangelista and Marco Leo and Pierluigi Carcagní and Cosimo Distante
+* [Model-based head pose-free gaze estimation for assistive communication.](https://www.sciencedirect.com/science/article/pii/S1077314216000667) - Stefania Cristina and Kenneth P. Camilleri  
+* [Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images.](http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316)  
+  Anjith George and Aurobinda Routray  
+* [Gaze Estimation in the 3D Space Using RGB-D Sensors.](http://publications.idiap.ch/index.php/publications/show/3228) - Kenneth A. Funes-Mora and Jean-Marc Odobez  
 
 #### Gaze Trajectory
+* [Appearance-Based Gaze Estimation via Uncalibrated Gaze Pattern Recovery.](https://ieeexplore.ieee.org/document/7833091) - Feng Lu and Xiaowu Chen and Yoichi Sato 
 
 #### Gaze Redirection
 
-#### Gaze Zone
+#### Gaze Zone + Driver Gaze
+* [Driver Gaze Region Estimation Without Using Eye Movement](https://ieeexplore.ieee.org/document/7478592)  - Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer
 
 #### Looking At Each Other
 
+#### Gaze and Attention
+* [Dual Attention Guided Gaze Target Detection in the Wild](https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf) - Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai 
+* [Connecting What To Say With Where To Look by Modeling Human Attention Traces](https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf) - Zihang Meng, Licheng Yu, Ning Zhang, Tamara L. Berg, Babak Damavandi, Vikas Singh, Amy Bearman  
+* [Appearance-Based Gaze Estimation Using Attention and Difference Mechanism](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/D_Appearance-Based_Gaze_Estimation_Using_Attention_and_Difference_Mechanism_CVPRW_2021_paper.pdf) - Murthy L R D, Pradipta Biswas  
+* [Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Siegfried_Visual_Focus_of_Attention_Estimation_in_3D_Scene_With_an_CVPRW_2021_paper.pdf) - Remy Siegfried, Jean-Marc Odobez  
+* [Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes.](https://www.sciencedirect.com/science/article/pii/S0042698914002739) - Daniel Parks and Ali Borji and Laurent Itti 
+#### Gaze and Interaction
+* [Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf) - Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao
+* [Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations.](https://ieeexplore.ieee.org/document/7050250)  Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike  
+
 #### Uncategorized Papers
+* * [PupilTAN: A Few-Shot Adversarial Pupil Localizer](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf) - Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos 
 * [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
+* 
 
 <!----
-
-* [Fast and accurate algorithm for eye localisation for gaze tracking in low-resolution images.](http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2015.0316)  
-  Anjith George and Aurobinda Routray  
-* [Gaze Estimation in the 3D Space Using RGB-D Sensors.](http://publications.idiap.ch/index.php/publications/show/3228) 
-  Kenneth A. Funes-Mora and Jean-Marc Odobez  
-* [Augmented saliency model using automatic 3D head pose detection and learned gaze following in natural scenes.](https://www.sciencedirect.com/science/article/pii/S0042698914002739) - Daniel Parks and Ali Borji and Laurent Itti  
-* [Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations.](https://ieeexplore.ieee.org/document/7050250)  Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike  
-* [Driver Gaze Region Estimation Without Using Eye Movement](https://ieeexplore.ieee.org/document/7478592)  -   Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer  
+  
 * [Gaze Tracking System for User Wearing Glasses.](https://www.mdpi.com/1424-8220/14/2/2110) -  Su Gwon and Chul Cho and Hyeon Lee and Won Lee and Kang Park  
 * [Adaptive Linear Regression for Appearance-Based Gaze Estimation.](https://ieeexplore.ieee.org/document/6777326)   Feng Lu and Yusuke Sugano and Takahiro Okabe and Yoichi Sato  
 * [Learning gaze biases with head motion for head pose-free gaze estimation.](https://www.sciencedirect.com/science/article/pii/S0262885614000171)  
@@ -89,34 +105,9 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
   R. Valenti and N. Sebe and T. Gevers  
 * [Gaze tracking system at a distance for controlling IPTV.](https://ieeexplore.ieee.org/document/5681143)  
   Hyeon Lee and Duc Luong and Chul Cho and Eui Lee and Kang Park  
-* [Dual Attention Guided Gaze Target Detection in the Wild](https://openaccess.thecvf.com/content/CVPR2021/papers/Fang_Dual_Attention_Guided_Gaze_Target_Detection_in_the_Wild_CVPR_2021_paper.pdf)  
-  Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai  
-* [Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf)  
-  Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao  
-* [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf)  
-  Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz  
-* [Goal-Oriented Gaze Estimation for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf)  
-  Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada  
-* [Connecting What To Say With Where To Look by Modeling Human Attention Traces](https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_Connecting_What_To_Say_With_Where_To_Look_by_Modeling_CVPR_2021_paper.pdf)  
-  Zihang Meng, Licheng Yu, Ning Zhang, Tamara L. Berg, Babak Damavandi, Vikas Singh, Amy Bearman  
-* [GOO: A Dataset for Gaze Object Prediction in Retail Environments](https://arxiv.org/pdf/2105.10793)  
-  	Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto  
-* [PupilTAN: A Few-Shot Adversarial Pupil Localizer](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf)  
-  	Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos  
-* [Appearance-Based Gaze Estimation Using Attention and Difference Mechanism](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/D_Appearance-Based_Gaze_Estimation_Using_Attention_and_Difference_Mechanism_CVPRW_2021_paper.pdf)  
-  	Murthy L R D, Pradipta Biswas  
-* [Visual Focus of Attention Estimation in 3D Scene With an Arbitrary Number of Targets](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Siegfried_Visual_Focus_of_Attention_Estimation_in_3D_Scene_With_an_CVPRW_2021_paper.pdf)  
-  	Remy Siegfried, Jean-Marc Odobez  
-* [Appearance-based Gaze Estimation With Deep Learning: A Review and Benchmark](https://arxiv.org/pdf/2104.12668)  
-  	Yihua Cheng, Haofei Wang, Yiwei Bao, Feng Lu  
-* [PureGaze: Purifying Gaze Feature for Generalizable Gaze Estimation](https://arxiv.org/pdf/2103.13173)  
-  	Yihua Cheng, Yiwei Bao, Feng Lu  
-* [Gaze Estimation with an Ensemble of Four Architectures](https://arxiv.org/pdf/2107.01980)  
-  	Xin Cai, Boyu Chen, Jiabei Zeng, Jiajun Zhang, Yunjia Sun, Xiao Wang, Zhilong Ji, Xiao Liu, Xilin Chen, Shiguang Shan  
-* [The Story in Your Eyes: An Individual-difference-aware Model for Cross-person Gaze Estimation](https://arxiv.org/pdf/2107.01980)  
-  	Jun Bao, Buyu Liu, Jun Yu  
-* [Bayesian Eye Tracking](https://arxiv.org/pdf/2106.13387)  
-  	Qiang Ji, Kang Wang  
+
+
+* 
 * [CUDA-GR: Controllable Unsupervised Domain Adaptation for Gaze Redirection](https://arxiv.org/pdf/2106.10852)  
   	Swati Jindal, Xin Eric Wang  
 * [Glance-and-Gaze Vision Transformer](https://arxiv.org/pdf/2106.02277)  
