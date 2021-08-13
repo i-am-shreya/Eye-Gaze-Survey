@@ -36,11 +36,10 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
  - [Gaze Trajectory](#Gaze-Trajectory)
  - [Gaze Redirection](#Gaze-Redirection)
  - [Gaze Zone + Driver Gaze](#Gaze-Zone)
-<!--  - [Looking At Each Other](#LAEO)  -->
  - [Gaze and Attention](#Gaze-and-Attention)
  - [Gaze and Interaction](#Gaze-and-Interaction)
  - [Uncategorized Papers](#Uncategorized-Papers)
-
+<!--  - [Looking At Each Other](#LAEO)  -->
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
