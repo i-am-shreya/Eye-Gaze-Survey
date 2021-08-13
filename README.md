@@ -1,6 +1,5 @@
 # EyeGazeSurvey
-Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. [Link](https://drive.google.com/file/d/1T4v8tAeicntSkzTZFX8-26IDXH0UYl1Z/view?usp=sharing)
-
+Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. 
   
 If we miss your work, please let us know and we'll add it. 
 
@@ -8,6 +7,18 @@ If we miss your work, please let us know and we'll add it.
 - <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>.
 
 <!---## Update-->
+
+<!---If you find the survey useful for your research, please consider citing our work:
+```
+@inproceedings{ghosh2018automatic,
+  title={Automatic Group Affect Analysis in Images via Visual Attribute and Feature Networks},
+  author={Ghosh, Shreya and Dhall, Abhinav and Sebe, Nicu},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
+  pages={1967--1971},
+  year={2018},
+  organization={IEEE}
+}-->
+
 
 ## Datasets
 A comparison of gaze datasets with respect to several attributes (i.e. number of subjects (\# subjects), gaze labels, modality, headpose and gaze angle in yaw and pitch axis, environment (Env.), baseline method, data statistics (\# of data), and year of publication.) The abbreviations used are: In: Indoor, Out: Outdoor, Both: Indoor + Outdoor, Gen.: Generation, u/k: unknown, Seq.: Sequence, VF: Visual Field, EB: Eye Blink, GE: Gaze Event, GBRT: Gradient Boosting Regression Trees, GC: Gaze Communication, GNN: Graph Neural Network and Seg.: Segmentation.
@@ -33,7 +44,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 
 #### Eye Gaze Estimation
 
-* [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
+<!----* [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
 * [Low Cost Gaze Estimation: Knowledge-Based Solutions.](https://doi.org/10.1109/TIP.2019.2946452) - Ion Martinikorena, Andoni Larumbe-Bergera, Mikel Ariz, Sonia Porta, Rafael Cabeza, Arantxa Villanueva (2020 IEEE TIP)
 * [Gaze Estimation by Exploring Two-Eye Asymmetry.](https://doi.org/10.1109/TIP.2020.2982828)- Yihua Cheng, Xucong Zhang, Feng Lu, Yoichi Sato (2020 IEEE TIP)
 * [MPIIGaze: Real-World Dataset and Deep Appearance-Based Gaze Estimation.](https://ieeexplore.ieee.org/document/8122058) - Xucong Zhang and Yusuke Sugano and Mario Fritz and Andreas Bulling (2017 IEEE TPAMI) 
@@ -153,11 +164,8 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * [Eyemotion: Classifying Facial Expressions in VR Using Eye-Tracking Cameras.](https://doi.org/10.1109/WACV.2019.00178)  
   Steven Hickson, Nick Dufour, Avneesh Sud, Vivek Kwatra, Irfan A. Essa  
 
-   * [Lian-etal2019 AAAI] RGBD Based Gaze Estimation via Multi-Task CNN.  (https://doi.org/10.1609/aaai.v33i01.33012488)  
-  Dongze Lian, Ziheng Zhang, Weixin Luo, Lina Hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao  
-
-
-   * [Fischer-etal2018] RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments.   (https://link.springer.com/chapter/10.1007%2F978-3-030-01249-6_21  )  
+* [Lian-etal2019 AAAI] RGBD Based Gaze Estimation via Multi-Task CNN.  (https://doi.org/10.1609/aaai.v33i01.33012488) - Dongze Lian, Ziheng Zhang, Weixin Luo, Lina Hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao  
+* [Fischer-etal2018] RT-GENE: Real-Time Eye Gaze Estimation in Natural Environments.   (https://link.springer.com/chapter/10.1007%2F978-3-030-01249-6_21  )  
   Tobias Fischer, Hyung Jin Chang, Yiannis Demiris  
 
    * [Yohanandan-etal2018] Saliency Preservation in Low-Resolution Grayscale Images.   (https://link.springer.com/chapter/10.1007/978-3-030-01231-1_15)  
@@ -609,17 +617,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * [TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.](https://arxiv.org/abs/1504.06755)
    Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao   
 * [When Computer Vision Gazes at Cognition.](https://arxiv.org/abs/1412.2672)
-   Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman    
+   Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman    --->
 
 
 
-<!---If you find the survey useful for your research, please consider citing our work:
-```
-@inproceedings{ghosh2018automatic,
-  title={Automatic Group Affect Analysis in Images via Visual Attribute and Feature Networks},
-  author={Ghosh, Shreya and Dhall, Abhinav and Sebe, Nicu},
-  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
-  pages={1967--1971},
-  year={2018},
-  organization={IEEE}
-}-->
