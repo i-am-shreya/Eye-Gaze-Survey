@@ -38,6 +38,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
  - [Gaze Zone + Driver Gaze](#Gaze-Zone)
  - [Gaze and Attention](#Gaze-and-Attention)
  - [Gaze and Interaction](#Gaze-and-Interaction)
+ - [Visual Attention](#Visual-Attention)
  - [Uncategorized Papers](#Uncategorized-Papers)
 <!--  - [Looking At Each Other](#LAEO)  -->
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
@@ -119,7 +120,14 @@ LAEO-Net++: revisiting people Looking At Each Other in videos (link) -->
 #### Gaze and Interaction
 * [Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhong_Glance_and_Gaze_Inferring_Action-Aware_Points_for_One-Stage_Human-Object_Interaction_CVPR_2021_paper.pdf) - Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao
 * [Appearance-Based Gaze Estimation With Online Calibration From Mouse Operations.](https://ieeexplore.ieee.org/document/7050250)  Yusuke Sugano and Yasuyuki Matsushita and Yoichi Sato and Hideki Koike  
-* [Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning](http://openaccess.thecvf.com/content_ICCV_2019/papers/Fan_Understanding_Human_Gaze_Communication_by_Spatio-Temporal_Graph_Reasoning_ICCV_2019_paper.pdf) -   Lifeng Fan, Wenguan Wang, Siyuan Huang, Xinyu Tang, Song-Chun Zhu   
+  
+
+#### Visual Attention
+* [Where are they looking?](https://papers.nips.cc/paper/2015/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html) - Adria Recasens, Aditya Khosla, Carl Vondrick, Antonio Torralba. NIPS 2015
+* [Connecting Gaze, Scene, and Attention: Generalized Attention Estimation via Joint Modeling of Gaze and Scene Saliency](https://www.springerprofessional.de/connecting-gaze-scene-and-attention-generalized-attention-estima/16179862) - Eunji Chong, Nataniel Ruiz, Yongxin Wang, Yun Zhang, Agata Rozga, James M. Rehg. ECCV2018 
+* [Understanding Human Gaze Communication by Spatio-Temporal Graph Reasoning](http://openaccess.thecvf.com/content_ICCV_2019/papers/Fan_Understanding_Human_Gaze_Communication_by_Spatio-Temporal_Graph_Reasoning_ICCV_2019_paper.pdf) -   Lifeng Fan, Wenguan Wang, Siyuan Huang, Xinyu Tang, Song-Chun Zhu. ICCV2019
+* [Detecting Attended Visual Targets in Video](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chong_Detecting_Attended_Visual_Targets_in_Video_CVPR_2020_paper.pdf) - Eunji Chong, Yongxin Wang, Nataniel Ruiz, James M. Rehg. CVPR2020
+
 
 #### Uncategorized Papers
 * [PupilTAN: A Few-Shot Adversarial Pupil Localizer](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf) - Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos 
