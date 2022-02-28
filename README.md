@@ -132,6 +132,12 @@ LAEO-Net++: revisiting people Looking At Each Other in videos (link) -->
 #### Uncategorized Papers
 * [PupilTAN: A Few-Shot Adversarial Pupil Localizer](https://openaccess.thecvf.com/content/CVPR2021W/GAZE/papers/Poulopoulos_PupilTAN_A_Few-Shot_Adversarial_Pupil_Localizer_CVPRW_2021_paper.pdf) - Nikolaos Poulopoulos, Emmanouil Z. Psarakis, Dimitrios Kosmopoulos 
 * [How is Gaze Influenced by Image Transformations? Dataset and Model.](https://doi.org/10.1109/TIP.2019.2945857) - Zhaohui Che, Ali Borji, Guangtao Zhai, Xiongkuo Min, Guodong Guo, Patrick Le Callet (2020 IEEE TIP) [[code]](https://github.com/CZHQuality/Sal-CFS-GAN)
+* [When Computer Vision Gazes at Cognition.](https://arxiv.org/abs/1412.2672) - Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman
+* [A Novel Approach to Real-time Non-intrusive Gaze Finding.](http://www.bmva.org/bmvc/1998/papers/d058/h058.htm) - L.-Q. Xu and D. Machin and P. Sheppard  
+* [Non-Intrusive Gaze Tracking Using Artificial Neural Networks.](https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks) - Shumeet Baluja and Dean Pomerleau   
+* [Interact as You Intend: Intention-Driven Human-Object Interaction Detection.](https://arxiv.org/abs/1808.09796) - Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao   
+* [TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.](https://arxiv.org/abs/1504.06755) - Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao 
+  
 
 <!----
   
@@ -592,25 +598,16 @@ LAEO-Net++: revisiting people Looking At Each Other in videos (link) -->
       * [Mohammadi-Raie2012 ICEE] Robust pose-invariant eye gaze estimation using geometrical features of iris and pupil images.    (https://ieeexplore.ieee.org/document/6292425)
    Mohammad Reza Mohammadi and Abolghasem Raie   
 
-      * [Lu-etal2011 BMVC] A Head Pose-free Approach for Appearance-based Gaze Estimation.    (http://www.bmva.org/bmvc/2011/proceedings/paper126/index.html)
+      * A Head Pose-free Approach for Appearance-based Gaze Estimation. (http://www.bmva.org/bmvc/2011/proceedings/paper126/index.html)
    Feng Lu and Takahiro Okabe and Yusuke Sugano and Yoichi Sato   
 
-      * [Cristani-etal2011 BMVC] Social interaction discovery by statistical analysis of F-formations.    (http://www.bmva.org/bmvc/2011/proceedings/paper23/index.html)
+      * Social interaction discovery by statistical analysis of F-formations.    (http://www.bmva.org/bmvc/2011/proceedings/paper23/index.html)
    Marco Cristani and Loris Bazzani and Giulia Paggetti and Andrea Fossati and Diego Tosato and Alessio Del Bue and Gloria Menegaz and Vittorio Murino   
 
 * [Effective eye-gaze input into Windows.](https://dl.acm.org/citation.cfm?id=355021)
    Chris Lankford   
-
-* [A Novel Approach to Real-time Non-intrusive Gaze Finding.](http://www.bmva.org/bmvc/1998/papers/d058/h058.htm)
-   L.-Q. Xu and D. Machin and P. Sheppard  
-* [Non-Intrusive Gaze Tracking Using Artificial Neural Networks.](https://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks)
-   Shumeet Baluja and Dean Pomerleau   
-* [Interact as You Intend: Intention-Driven Human-Object Interaction Detection.](https://arxiv.org/abs/1808.09796)
-   Bingjie Xu and Junnan Li and Yongkang Wong and Mohan S. Kankanhalli and Qi Zhao   
-* [TurkerGaze: Crowdsourcing Saliency with Webcam based Eye Tracking.](https://arxiv.org/abs/1504.06755)
-   Pingmei Xu and Krista A Ehinger and Yinda Zhang and Adam Finkelstein and Sanjeev R. Kulkarni and Jianxiong Xiao   
-* [When Computer Vision Gazes at Cognition.](https://arxiv.org/abs/1412.2672)
-   Tao Gao and Daniel Harari and Joshua Tenenbaum and Shimon Ullman    --->
+  
+    --->
 
 
 
