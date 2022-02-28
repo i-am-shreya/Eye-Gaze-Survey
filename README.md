@@ -44,6 +44,9 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
+* [Cross-Encoder for Unsupervised Gaze Representation Learning](https://vipl.ict.ac.cn/uploadfile/upload/2021082510101176.pdf)
+* [Vulnerability of Appearance-based Gaze Estimation](https://arxiv.org/pdf/2103.13134.pdf)
+* [Generalizing Gaze Estimation with Outlier-guided Collaborative Adaptation](https://arxiv.org/pdf/2107.13780.pdf)
 * [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf) - Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz (CVPR 2021) 
 * [Goal-Oriented Gaze Estimation for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf) - Yang Liu, Lei Zhou, Xiao Bai, Yifei Huang, Lin Gu, Jun Zhou, Tatsuya Harada  (CVPR 2021)
 * [GOO: A Dataset for Gaze Object Prediction in Retail Environments](https://arxiv.org/pdf/2105.10793) - Henri Tomas, Marcus Reyes, Raimarc Dionido, Mark Ty, Jonric Mirando, Joel Casimiro, Rowel Atienza, Richard Guinto  (CVPRW 2021)
