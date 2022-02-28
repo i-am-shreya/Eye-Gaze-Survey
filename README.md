@@ -44,7 +44,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
-* [Cross-Encoder for Unsupervised Gaze Representation Learning](https://vipl.ict.ac.cn/uploadfile/upload/2021082510101176.pdf)
+* [Cross-Encoder for Unsupervised Gaze Representation Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Cross-Encoder_for_Unsupervised_Gaze_Representation_Learning_ICCV_2021_paper.pdf) - Yunjia Sun, Jiabei Zeng, Shiguang Shan, Xilin Chen ICCV2021
 * [Vulnerability of Appearance-based Gaze Estimation](https://arxiv.org/pdf/2103.13134.pdf)
 * [Generalizing Gaze Estimation with Outlier-guided Collaborative Adaptation](https://arxiv.org/pdf/2107.13780.pdf)
 * [Weakly-Supervised Physically Unconstrained Gaze Estimation](https://openaccess.thecvf.com/content/CVPR2021/papers/Kothari_Weakly-Supervised_Physically_Unconstrained_Gaze_Estimation_CVPR_2021_paper.pdf) - Rakshit Kothari, Shalini De Mello, Umar Iqbal, Wonmin Byeon, Seonwook Park, Jan Kautz (CVPR 2021) 
