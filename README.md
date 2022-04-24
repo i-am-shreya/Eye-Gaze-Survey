@@ -50,6 +50,8 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * End-to-End Human-Gaze-Target Detection with Transformers - Danyang Tu, Xiongkuo Min, Huiyu Duan, Guodong Guo, Guangtao Zhai, Wei Shen CVPR2022
 * Generalizing Gaze Estimation with Rotation Consistency - Yiwei Bao, Yunfei Liu, Haofei Wang, Feng Lu CVPR2022
 * Contrastive Regression for Domain Adaptation on Gaze Estimation - Yaoming Wang, Yangzhou Jiang, Jin Li, Bingbing Ni, Wenrui Dai, Chenglin Li, Hongkai Xiong, Teng Li CVPR2022
+* Dual Attention Guided Gaze Target Detection in the Wild - Yi Fang, Jiapeng Tang, Wang Shen, Wei Shen, Xiao Gu, Li Song, Guangtao Zhai
+* Glance and Gaze: Inferring Action-Aware Points for One-Stage Human-Object Interaction Detection - Xubin Zhong, Xian Qu, Changxing Ding, Dacheng Tao
 * [Cross-Encoder for Unsupervised Gaze Representation Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Cross-Encoder_for_Unsupervised_Gaze_Representation_Learning_ICCV_2021_paper.pdf) - Yunjia Sun, Jiabei Zeng, Shiguang Shan, Xilin Chen ICCV2021
 * [Vulnerability of Appearance-based Gaze Estimation](https://arxiv.org/pdf/2103.13134.pdf)
 * [Generalizing Gaze Estimation with Outlier-guided Collaborative Adaptation](https://arxiv.org/pdf/2107.13780.pdf)
