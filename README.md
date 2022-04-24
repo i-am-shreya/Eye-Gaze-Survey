@@ -44,6 +44,12 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
+* ESCNet: Gaze Target Detection with the Understanding of 3D Scenes - Jun Bao, Buyu Liu, Jun Yu CVPR2022
+* GaTector: A Unified Framework for Gaze Object Prediction - Binglu Wang, Tao Hu, Baoshan Li, Xiaojuan Chen, Zhijie Zhang CVPR2022
+* GazeOnce: Real-Time Multi-Person Gaze Estimation - Mingfang Zhang, Yunfei Liu, Feng Lu CVPR2022
+* End-to-End Human-Gaze-Target Detection with Transformers - Danyang Tu, Xiongkuo Min, Huiyu Duan, Guodong Guo, Guangtao Zhai, Wei Shen CVPR2022
+* Generalizing Gaze Estimation with Rotation Consistency - Yiwei Bao, Yunfei Liu, Haofei Wang, Feng Lu CVPR2022
+* Contrastive Regression for Domain Adaptation on Gaze Estimation - Yaoming Wang, Yangzhou Jiang, Jin Li, Bingbing Ni, Wenrui Dai, Chenglin Li, Hongkai Xiong, Teng Li CVPR2022
 * [Cross-Encoder for Unsupervised Gaze Representation Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Sun_Cross-Encoder_for_Unsupervised_Gaze_Representation_Learning_ICCV_2021_paper.pdf) - Yunjia Sun, Jiabei Zeng, Shiguang Shan, Xilin Chen ICCV2021
 * [Vulnerability of Appearance-based Gaze Estimation](https://arxiv.org/pdf/2103.13134.pdf)
 * [Generalizing Gaze Estimation with Outlier-guided Collaborative Adaptation](https://arxiv.org/pdf/2107.13780.pdf)
