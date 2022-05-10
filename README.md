@@ -21,42 +21,41 @@ If you find the survey useful for your research, please consider citing our work
 
 ## Datasets
 A comparison of gaze datasets with respect to several attributes (i.e. number of subjects (\# subjects), gaze labels, modality, headpose and gaze angle in yaw and pitch axis, environment (Env.), baseline method, data statistics (\# of data), and year of publication.) The abbreviations used are: In: Indoor, Out: Outdoor, Both: Indoor + Outdoor, Gen.: Generation, u/k: unknown, Seq.: Sequence, VF: Visual Field, EB: Eye Blink, GE: Gaze Event, GBRT: Gradient Boosting Regression Trees, GC: Gaze Communication, GNN: Graph Neural Network and Seg.: Segmentation.
+* [CAVE](https://www.cs.columbia.edu/CAVE/databases/columbia_gaze/) 2013
+* [EYEDIAP](https://www.idiap.ch/en/dataset/eyediap) 2014
+* [UT MV](https://www.ut-vision.org/datasets/) 2014
+* OMEG 2015
+* [MPIIGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild) 2015
+* [GazeFollow](http://gazefollow.csail.mit.edu/index.html) 2015
+* [SynthesEye](https://www.cl.cam.ac.uk/research/rainbow/projects/syntheseyes/) 2015
+* [GazeCapture](https://gazecapture.csail.mit.edu/) 2016
+* [UnityEyes](https://www.cl.cam.ac.uk/research/rainbow/projects/unityeyes/) 2016
+* [TabletGaze](https://sh.rice.edu/cognitive-engagement/\%20tabletgaze/) 2017
+* [MPIIFaceGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation) 2017
+* [InvisibleEye](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/invisibleeye-mobile-eye-tracking-using-multiple-low-resolution-cameras-and-learning-based-gaze-estimation) 2017
+* [RT-GENE](https://github.com/Tobias-Fischer/rt_gene) 2018
+* [Gaze360](http://gaze360.csail.mit.edu/) 2019 
+* [RT-BENE](https://github.com/Tobias-Fischer/rt_gene) 2019 
+* [NV Gaze](https://sites.google.com/nvidia.com/nvgaze) 2019 
+* [HUST-LBW](https://github.com/thorhu/Eyeblink-in-the-wild) 2019
+* [VACATION](https://github.com/LifengFan/Human-Gaze-Communication) 2019
+* [OpenEDS2019](https://research.facebook.com/openeds-challenge/) 2019
+* [OpenEDS2020](https://research.facebook.com/openeds-2020-challenge/) 2020
+* [mEBAL](https://github.com/BiDAlab/mEBAL) 2020
+* [ETH-XGaze](https://ait.ethz.ch/projects/2020/ETH-XGaze/) 2020
+* [EVE](https://ait.ethz.ch/projects/2020/EVE/) 2020
+* [Gaze-in-the-Wild](http://www.cis.rit.edu/~rsk3900/gaze-in-wild/) 2020
+* [LAEO](https://github.com/AVAuco/ucolaeodb) 2021
+* [GOO](https://github.com/upeee/GOO-GAZE2021) 2021 
+* [OpenNEEDS](https://research.facebook.com/publications/openneeds-a-dataset-of-gaze-head-hand-and-scene-signals-during-exploration-in-open-ended-vr-environments/) 2021
 
+The details of the datasets are mentioned in the table:
 ![datasets](/images/datasets.png)
 
 
 ## Gaze Analysis Methods
 A comparison of gaze analysis methods with respect to registration (Reg.), representation (Represent.), Level of Supervision, Model, Prediction, validation on benchmark datasets (validation), Platforms, Publication venue (Publ.) and year. Here, GV: Gaze Vector, Scr.: Screen, LOSO: Leave One Subject Out, LPIPS: Learned Perceptual Image Patch Similarity, MM: Morphable Model, RRF: Random Regression Forest, AEM: Anatomic Eye Model, GRN: Gaze Regression Network, ET: External Target, FV: Free Viewing, HH: HandHeld Device, HMD: Head Mounted Device, Seg.: Segmentation and GR: Gaze Redirection, LAEO: Looking At Each Other.
 
-* [CAVE](https://www.cs.columbia.edu/CAVE/databases/columbia_gaze/) 2013
-* [EYEDIAP](https://www.idiap.ch/en/dataset/eyediap) 2014
-* [UT MV](https://www.ut-vision.org/datasets/) 2014
-* OMEG 2015
-* [MPIIGaze](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild) 2015
-* [GazeFollow] (http://gazefollow.csail.mit.edu/index.html) 2015
-* [SynthesEye](https://www.cl.cam.ac.uk/research/rainbow/projects/syntheseyes/) 2015
-* \href{https://gazecapture.csail.mit.edu/}{GazeCapture}~\cite{krafka2016eye} 2016
-* \href{https://www.cl.cam.ac.uk/research/rainbow/projects/unityeyes/}{UnityEyes} 2016
-* \href{https://sh.rice.edu/cognitive-engagement/\%20tabletgaze/}{TabletGaze} 2017
-* \href{https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation}{MPIIFaceGaze} 2017
-* \href{https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/invisibleeye-mobile-eye-tracking-using-multiple-low-resolution-cameras-and-learning-based-gaze-estimation}{InvisibleEye} 2017
-\href{https://github.com/Tobias-Fischer/rt_gene}{RT-GENE}~\cite{FischerECCV2018}&15  &3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.:$1920\times 1080$ \end{tabular} &$\pm 40$\textdegree, $\pm 40$\textdegree & $\pm 40$\textdegree, $- 40$\textdegree &In & \begin{tabular}[c]{@{}l@{}}CNN~\cite{FischerECCV2018}\\ \textbf{Eval.:}Cross val \end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:}122,531\end{tabular}  & 2018\\ \hline
-\href{http://gaze360.csail.mit.edu/}{Gaze 360}~\cite{gaze360_2019} & 238  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\ Dim.:$4096\times 3382$  \end{tabular} & $\pm 90$\textdegree, \small{u/k} & $\pm 140$\textdegree, $- 50$\textdegree &  \begin{tabular}[c]{@{}l@{}}Both  \end{tabular} & \begin{tabular}[c]{@{}l@{}}Pinball LSTM \\ \textbf{Eval.:} Hold out\end{tabular}& \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 172,000 \end{tabular}& 2019 \\ \hline % \\ \textbf{Train:} 129,000\\\textbf{Val:}17,000 \\ \textbf{Test:} 26,000
-\href{https://github.com/Tobias-Fischer/rt_gene}{RT-BENE}\cite{cortacero2019rt} & 17  & EB & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $ 1920 \times 1080$ \end{tabular} & $\pm 40$\textdegree, $\pm 40$\textdegree  & $\pm 40$\textdegree, $- 40$\textdegree &  In & \begin{tabular}[c]{@{}l@{}}CNNs\\ \textbf{Eval.:} Cross val\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 243,714\end{tabular} &2019\\ \hline
-\href{https://sites.google.com/nvidia.com/nvgaze}{NV Gaze}~\cite{kim2019nvgaze} & 30  &\begin{tabular}[c]{@{}l@{}} 3-D,\\ Seg. \end{tabular}& \begin{tabular}[c]{@{}l@{}}Image (Synthetic) \\ Dim.:$1280 \times 960$, \\$640\times480 $ \end{tabular} & Unknown & \begin{tabular}[c]{@{}l@{}}$30$\textdegree $\times 40$\textdegree\\ VF \end{tabular}&  \begin{tabular}[c]{@{}l@{}}Both  \end{tabular} & \begin{tabular}[c]{@{}l@{}}CNN~\cite{laine2017production} \\ \textbf{Eval.:} Hold out\end{tabular}& \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 2,500,000\\ \end{tabular}& 2019 \\ \hline %
-\begin{tabular}[c]{@{}l@{}}\href{https://github.com/thorhu/Eyeblink-in-the-wild}{HUST-LEBW}\\~\cite{hu2019towards}\end{tabular} & 172  & EB & \begin{tabular}[c]{@{}l@{}}Video \\Dim.: $ 1280 \times 720$ \end{tabular} & Variable  & Variable &  Both & \begin{tabular}[c]{@{}l@{}}MS-LSTM\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 673\end{tabular} &2019\\ \hline
-\begin{tabular}[c]{@{}l@{}}\href{https://github.com/LifengFan/Human-Gaze-Communication}{VACATION}\\~\cite{fan2019understanding}\end{tabular} & 206,774  & GC & \begin{tabular}[c]{@{}l@{}}Video \\Dim.: $ 640 \times 360$ \end{tabular} & Variable  & Variable &  Both & \begin{tabular}[c]{@{}l@{}}GNN\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 96,993\end{tabular} &2019\\ \hline
-\begin{tabular}[c]{@{}l@{}}\href{https://research.facebook.com/openeds-challenge/}{OpenEDS-19}~\cite{garbin2019openeds} \\Track 1: Semantic\\ Segmentation \end{tabular}& 152  & Seg. &\begin{tabular}[c]{@{}l@{}}Image\\ Dim.: $640 \times 400$ \end{tabular} &Unknown &Unknown &  In &\begin{tabular}[c]{@{}l@{}}SegNet~\cite{badrinarayanan2017segnet}\\ \textbf{Eval.:} Hold out\end{tabular}  & \begin{tabular}[c]{@{}l@{}} \textbf{Total:}12,759\\(in \# SegSeq~\cite{garbin2019openeds}) \end{tabular}&2019\\ \hline %\\\textbf{Train:}8,916 \\\textbf{Val:}2,403\\\textbf{Test:}1,440
-\begin{tabular}[c]{@{}l@{}}\href{https://research.facebook.com/openeds-challenge/}{OpenEDS-19}~\cite{garbin2019openeds} \\Track 2: Synthetic \\ Eye Generation  \end{tabular} &  152 & Gen.  &\begin{tabular}[c]{@{}l@{}}Image \\ Dim.: $640 \times 400$\end{tabular} &Unknown & Unknown &  In & \begin{tabular}[c]{@{}l@{}}\textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 252,690\end{tabular}&2019\\ \hline
-\begin{tabular}[c]{@{}l@{}}\href{https://research.facebook.com/openeds-2020-challenge/}{OpenEDS-20}~\cite{palmero2020openeds2020} \\ Track 1: Gaze\\ Prediction \end{tabular} & 90  & 3-D   & \begin{tabular}[c]{@{}l@{}}Image\\ Dim.: $640 \times 400$ \end{tabular} & Unknown & $\pm 20$\textdegree, $\pm 20$\textdegree  &  In & \begin{tabular}[c]{@{}l@{}}Modified ResNet\\ \textbf{Eval.:} Hold out\end{tabular}  & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 8,960 Seq.,\\550,400 img.\end{tabular}&2020\\ \hline %\\\textbf{Train:}1280 Seq.,\\ 128,000 img.\\\textbf{Val:}1,280 Seq.\\ 70,400 img.\\\textbf{Test:} 6,400 Seq.\\352,000 img.
-\begin{tabular}[c]{@{}l@{}}\href{https://research.facebook.com/openeds-2020-challenge/}{OpenEDS-20}~\cite{palmero2020openeds2020}\\ Track 2: Sparse \\ Temporal Semantic\\ Segmentation\end{tabular} & 90 & Seg.   & \begin{tabular}[c]{@{}l@{}}Image\\ Dim.: $640 \times 400$ \end{tabular} & Unknown & $\pm 20$\textdegree, $\pm 20$\textdegree &  In & \begin{tabular}[c]{@{}l@{}}\\ \textbf SegNet~\cite{badrinarayanan2017segnet}\\(Power \\Efficient version)\\{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 200 Seq.\\ 29,500 img.\end{tabular} &2020\\ \hline 
-\href{https://github.com/BiDAlab/mEBAL}{mEBAL}\cite{daza2020mebal} & 38  & EB & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $ 1280 \times 720$ \end{tabular} & Variable  & Variable &  In & \begin{tabular}[c]{@{}l@{}}VGG-16 Varient\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 756,000\end{tabular} &2020\\ \hline
-\href{https://ait.ethz.ch/projects/2020/ETH-XGaze/}{ETH-XGaze}~\cite{zhang2020eth} & 110  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $6000\times 4000$ \end{tabular} & $\pm 80$\textdegree, $\pm 80$\textdegree  & $\pm 120$\textdegree, $\pm 70$\textdegree&  In & \begin{tabular}[c]{@{}l@{}}ResNet-50\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 1,083,492\end{tabular} &2020\\ \hline %\\\textbf{Train:} 80 \# Sub \\\textbf{Val:}15 \# Sub\\\textbf{Test:}15 \# Sub 
-\href{https://ait.ethz.ch/projects/2020/EVE/}{EVE}~\cite{Park2020ECCV} & 54  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $6000\times 4000$\\ \end{tabular} & $\pm 80$\textdegree, $\pm 80$\textdegree  & $\pm 80$\textdegree, $\pm 80$\textdegree&  In & \begin{tabular}[c]{@{}l@{}}ResNet-18\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 12,308,334\end{tabular} &2020\\ \hline %\\\textbf{Train:} 65116 \\\textbf{Val:}7676\\\textbf{Test:} 3556
-\href{http://www.cis.rit.edu/~rsk3900/gaze-in-wild/}{GW}~\cite{kothari2020gaze} & 19  & GE & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $1920\times 1080$\\ \end{tabular} & Variable  & Variable &  In & \begin{tabular}[c]{@{}l@{}}RNN\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} $\sim$ 5,800,000\end{tabular} &2020\\ \hline
-\href{https://github.com/AVAuco/ucolaeodb}{LAEO}~\cite{Kothari_2021_CVPR} & 485  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: Variable\\ \end{tabular} & Variable  & Variable &  Both & \begin{tabular}[c]{@{}l@{}}ResNet-18+LSTM\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 800,000\end{tabular} &2021\\ \hline
-\href{https://github.com/upeee/GOO-GAZE2021}{GOO}~\cite{tomas2021goo} & 100  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: Variable\\ \end{tabular} & Variable  & Variable &  Both & \begin{tabular}[c]{@{}l@{}}ResNet-50\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 201,552\end{tabular} &2021\\ \hline
-\href{https://research.facebook.com/publications/openneeds-a-dataset-of-gaze-head-hand-and-scene-signals-during-exploration-in-open-ended-vr-environments/}{OpenNEEDS}~\cite{emery2021openneeds} & 44  & 3-D & \begin{tabular}[c]{@{}l@{}}Image \\Dim.: $128\times 71$\\ \end{tabular} & Variable  & Variable &  VR & \begin{tabular}[c]{@{}l@{}}GBRT\\ \textbf{Eval.:} Hold out\end{tabular} & \begin{tabular}[c]{@{}l@{}} \textbf{Total:} 2,086,507\end{tabular} &2021\\
 ![datasets](/images/prior_work.png)
 
 # Eye-Gaze: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
