@@ -41,6 +41,7 @@ A comparison of gaze datasets with respect to several attributes (i.e. number of
 * [VACATION](https://github.com/LifengFan/Human-Gaze-Communication) 2019
 * [OpenEDS2019](https://research.facebook.com/openeds-challenge/) 2019
 * [OpenEDS2020](https://research.facebook.com/openeds-2020-challenge/) 2020
+* [OpenEDS2020](https://research.facebook.com/facebook-openeds-2021-challenge/).
 * [mEBAL](https://github.com/BiDAlab/mEBAL) 2020
 * [ETH-XGaze](https://ait.ethz.ch/projects/2020/ETH-XGaze/) 2020
 * [EVE](https://ait.ethz.ch/projects/2020/EVE/) 2020
