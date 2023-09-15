@@ -8,22 +8,6 @@
   
 If we miss your work, please let us know and we'll add it. 
 
-## Contact
-- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>.
-
-<!---## Update-->
-
-If you find the survey useful for your research, please consider citing our work:
-```
-@article{ghosh2021Automatic,
-  title={Automatic Gaze Analysis: A Survey of Deep Learning based Approaches},
-  author={Ghosh, Shreya and Dhall, Abhinav and Hayat, Munawar and Knibbe, Jarrod and Ji, Qiang},
-  journal={arXiv preprint arXiv:2108.05479},
-  year={2021}
-}
-```
-
-
 ## Datasets
 A comparison of gaze datasets with respect to several attributes (i.e. number of subjects (\# subjects), gaze labels, modality, headpose and gaze angle in yaw and pitch axis, environment (Env.), baseline method, data statistics (\# of data), and year of publication.) The abbreviations used are: In: Indoor, Out: Outdoor, Both: Indoor + Outdoor, Gen.: Generation, u/k: unknown, Seq.: Sequence, VF: Visual Field, EB: Eye Blink, GE: Gaze Event, GBRT: Gradient Boosting Regression Trees, GC: Gaze Communication, GNN: Graph Neural Network and Seg.: Segmentation.
 * [CAVE](https://www.cs.columbia.edu/CAVE/databases/columbia_gaze/) 2013
@@ -64,6 +48,20 @@ A comparison of gaze analysis methods with respect to registration (Reg.), repre
 
 ![datasets](/images/prior_work.png)
 
+## Contact
+- <a href="https://sites.google.com/view/shreyaghosh/home">Shreya Ghosh</a>.
+
+<!---## Update-->
+
+If you find the survey useful for your research, please consider citing our work:
+```
+@article{ghosh2021Automatic,
+  title={Automatic Gaze Analysis: A Survey of Deep Learning based Approaches},
+  author={Ghosh, Shreya and Dhall, Abhinav and Hayat, Munawar and Knibbe, Jarrod and Ji, Qiang},
+  journal={arXiv preprint arXiv:2108.05479},
+  year={2021}
+}
+```
 # Eye-Gaze: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 A curated list of papers and datsets for various gaze estimation techniques, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision). Mostly Recent papers are here.
 
