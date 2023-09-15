@@ -75,7 +75,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
-* ESCNet: Gaze Target Detection with the Understanding of 3D Scenes - Jun Bao, Buyu Liu, Jun Yu CVPR2022 [pdf NA]
+* [ESCNet: Gaze Target Detection with the Understanding of 3D Scenes](https://openaccess.thecvf.com/content/CVPR2022/papers/Bao_ESCNet_Gaze_Target_Detection_With_the_Understanding_of_3D_Scenes_CVPR_2022_paper.pdf) - Jun Bao, Buyu Liu, Jun Yu CVPR2022
 * [Dynamic 3D Gaze from Afar: Deep Gaze Estimation from Temporal Eye-Head-Body Coordination](https://vision.ist.i.kyoto-u.ac.jp/pubs/SNonaka_CVPR22.pdf) - Soma Nonaka, Shohei Nobuhara, Ko Nishino CVPR2022
 * [GaTector: A Unified Framework for Gaze Object Prediction](https://arxiv.org/pdf/2112.03549.pdf) - Binglu Wang, Tao Hu, Baoshan Li, Xiaojuan Chen, Zhijie Zhang CVPR2022
 * [GazeOnce: Real-Time Multi-Person Gaze Estimation](https://arxiv.org/abs/2204.09480) - Mingfang Zhang, Yunfei Liu, Feng Lu CVPR2022
