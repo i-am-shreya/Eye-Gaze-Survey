@@ -2,7 +2,7 @@
 ## Overview of Human Visual System
 ![Eye_model](/images/eye_model.png)
 ## Overview of Gaze Estimation Setup
-![setup](/images/eye_model.png)
+![setup](/images/problem_setup.png)
 
 * Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. [(Paper Arxiv Link)](https://arxiv.org/pdf/2108.05479.pdf)
   
