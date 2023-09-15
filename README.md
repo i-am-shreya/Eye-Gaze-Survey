@@ -1,4 +1,5 @@
 # EyeGazeSurvey [TPAMI 2023 Accepted]
+![datasets](/images/eye_model.pdf)
 Automatic Gaze Analysis: A Survey of Deep Learning based Approaches by Shreya Ghosh, Abhinav Dhall, Munawar Hayat, Jarrod Knibbe and Qiang Ji. [(Paper Arxiv Link)](https://arxiv.org/pdf/2108.05479.pdf)
   
 If we miss your work, please let us know and we'll add it. 
