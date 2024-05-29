@@ -55,6 +55,9 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 <!---- [Cross-modal Headpose (Audio-Video / Video-Audio)](#Cross-modal-Generation-(Audio-Video--Video-Audio)) [Multi-modal Architectures](#Multi-modal-Architectures)-->
 
 #### Eye Gaze Estimation/Tracking 
+* [GazeNeRF: 3D-Aware Gaze Redirection with Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2023/papers/Ruzzi_GazeNeRF_3D-Aware_Gaze_Redirection_With_Neural_Radiance_Fields_CVPR_2023_paper.pdf) - Alessandro Ruzzi, Xiangwei Shi, Xi Wang, Gengyan Li, Shalini De Mello, Hyung Jin Chang, Xucong Zhang, Otmar Hilliges.
+* [Source-free Adaptive Gaze Estimation with Uncertainty Reduction](https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_Source-Free_Adaptive_Gaze_Estimation_by_Uncertainty_Reduction_CVPR_2023_paper.pdf) - Shiwei Jin, Zhen Wang, Lei Wang, Ning Bi, Truong Nguyen
+* [ReDirTrans: Latent-to-Latent Translation for Gaze and Head Redirection](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Jin_ReDirTrans_Latent-to-Latent_Translation_CVPR_2023_supplemental.pdf) - Xin Cai, Jiabei Zeng, Shiguang Shan, Xilin Chen.
 * [ESCNet: Gaze Target Detection with the Understanding of 3D Scenes](https://openaccess.thecvf.com/content/CVPR2022/papers/Bao_ESCNet_Gaze_Target_Detection_With_the_Understanding_of_3D_Scenes_CVPR_2022_paper.pdf) - Jun Bao, Buyu Liu, Jun Yu CVPR2022
 * [Dynamic 3D Gaze from Afar: Deep Gaze Estimation from Temporal Eye-Head-Body Coordination](https://vision.ist.i.kyoto-u.ac.jp/pubs/SNonaka_CVPR22.pdf) - Soma Nonaka, Shohei Nobuhara, Ko Nishino CVPR2022
 * [GaTector: A Unified Framework for Gaze Object Prediction](https://arxiv.org/pdf/2112.03549.pdf) - Binglu Wang, Tao Hu, Baoshan Li, Xiaojuan Chen, Zhijie Zhang CVPR2022
@@ -117,6 +120,7 @@ A curated list of papers and datsets for various gaze estimation techniques, ins
 * [Improving Few-Shot User-Specific Gaze Adaptation via Gaze Redirection Synthesis.](http://www.idiap.ch/~odobez/publications/YuLiuOdobez-CVPR2019.pdf)  
   Yu Yu, Gang Liu, Jean-Marc Odobez 
 #### Gaze Zone + Driver Gaze
+* [Look Both Ways: Self-Supervising Driver Gaze Estimation and Road Scene Saliency](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136730128.pdf) - Isaac H Kasahara, Simon Stent, Hyun Soo Park.
 * [Driver Gaze Region Estimation Without Using Eye Movement](https://ieeexplore.ieee.org/document/7478592)  - Lex Fridman and Philipp Langhans and Joonbum Lee and Bryan Reimer
 * [EyeGAN: Gaze-Preserving, Mask-Mediated Eye Image Synthesis.](https://openaccess.thecvf.com/content_WACV_2020/papers/Kaur_EyeGAN_Gaze-Preserving_Mask-Mediated_Eye_Image_Synthesis_WACV_2020_paper.pdf)  -  Harsimran Kaur, Roberto Manduchi 
 * ["Looking at the Right Stuff" - Guided Semantic-Gaze for Autonomous Driving.](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pal_Looking_at_the_Right_Stuff_-_Guided_Semantic-Gaze_for_Autonomous_CVPR_2020_paper.pdf) -   Anwesan Pal, Sayan Mondal, Henrik I. Christensen   
